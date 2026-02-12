@@ -1,0 +1,974 @@
+La liste de tous les utilisateurs
+
+3WA/souleymanecoulibaly_mini_projetsql/users/		https://phpmyadmin.3wa.io/index.php?route=/database/sql&db=souleymanecoulibaly_mini_projetsql
+
+   Affichage des lignes 0 - 24 (total de 221, traitement en 0.0032 seconde(s).)
+
+
+SELECT* from users
+
+
+id	address_id	email	password	first_name	last_name	registration_date	birthdate	
+cd5272cb-5a62-11eb-bc37-0242c0a8e002	eb316afe-5a62-11eb-bc37-0242c0a8e002	xgoncalves@example.org	$argon2id$v=19$m=65536,t=4,p=1$l3lmgk7pqNnR8o1W3xl...	Caroline	Levy	2016-01-06 19:56:14	1944-08-14 04:43:38	
+cd6d6f97-5a62-11eb-bc37-0242c0a8e002	eb31e94b-5a62-11eb-bc37-0242c0a8e002	merle.andree@example.org	$argon2id$v=19$m=65536,t=4,p=1$phQ9OnraLEkYsw3JnUk...	Charles	Laporte	2020-05-28 16:06:07	1987-09-24 20:24:23	
+cd899d00-5a62-11eb-bc37-0242c0a8e002	eb327ca7-5a62-11eb-bc37-0242c0a8e002	dominique46@example.com	$argon2id$v=19$m=65536,t=4,p=1$KkXb5AyVzEhaNamXQg+...	Renée	Pascal	2013-08-15 23:36:48	1943-04-07 17:00:19	
+cda719ee-5a62-11eb-bc37-0242c0a8e002	eb331e14-5a62-11eb-bc37-0242c0a8e002	lucas.lejeune@example.com	$argon2id$v=19$m=65536,t=4,p=1$29OcwmicYQiB/0T5rPT...	Christine	Jourdan	2016-04-21 17:07:08	1987-03-31 05:24:35	
+cdc18aaa-5a62-11eb-bc37-0242c0a8e002	eb33b1a2-5a62-11eb-bc37-0242c0a8e002	dumont.margaud@example.com	$argon2id$v=19$m=65536,t=4,p=1$EjkHxnbzsWyNeR7aWXj...	Alix	Gilles	2012-02-20 20:03:47	1967-09-13 04:25:31	
+cddc9fa2-5a62-11eb-bc37-0242c0a8e002	eb3445c3-5a62-11eb-bc37-0242c0a8e002	zmarques@example.com	$argon2id$v=19$m=65536,t=4,p=1$yDNm+YH1P91EJY7MJga...	Henri	Garcia	2019-09-26 16:33:44	1973-05-12 00:40:48	
+cdf79b63-5a62-11eb-bc37-0242c0a8e002	eb34aff7-5a62-11eb-bc37-0242c0a8e002	susan04@example.org	$argon2id$v=19$m=65536,t=4,p=1$O7JB96rQZC3I2wsVQ/q...	Michelle	Monnier	2015-03-06 04:10:37	1958-01-29 02:42:09	
+ce120f9b-5a62-11eb-bc37-0242c0a8e002	eb3502cc-5a62-11eb-bc37-0242c0a8e002	capucine98@example.org	$argon2id$v=19$m=65536,t=4,p=1$2XEdiRMYUubMjv0Dyb9...	Geneviève	Dos Santos	2016-12-14 20:34:32	1953-12-02 10:08:37	
+ce2c5494-5a62-11eb-bc37-0242c0a8e002	ebbcc599-5a62-11eb-bc37-0242c0a8e002	emmanuelle74@example.org	$argon2id$v=19$m=65536,t=4,p=1$rmQ1NNJ9QK0+CAej1i/...	Thibaut	Delattre	2020-07-17 10:20:33	1944-04-17 18:51:21	
+ce48442e-5a62-11eb-bc37-0242c0a8e002	ebbd4146-5a62-11eb-bc37-0242c0a8e002	william.launay@example.net	$argon2id$v=19$m=65536,t=4,p=1$V6BIKLmaR85TckBtkG/...	Christelle	Joly	2019-09-27 00:44:16	1959-07-27 14:34:22	
+ce637c47-5a62-11eb-bc37-0242c0a8e002	ebbdd3f5-5a62-11eb-bc37-0242c0a8e002	guillaume.berger@example.net	$argon2id$v=19$m=65536,t=4,p=1$fLsSUhcqHfqmzd2+8Qt...	Arthur	Albert	2020-02-22 17:36:37	1958-06-03 22:26:54	
+ce7edfbb-5a62-11eb-bc37-0242c0a8e002	ebbe5043-5a62-11eb-bc37-0242c0a8e002	louis68@example.net	$argon2id$v=19$m=65536,t=4,p=1$jU5C127rRhyhFp4MMke...	Valérie	Pottier	2012-09-14 20:42:55	1985-12-05 08:14:38	
+ce990022-5a62-11eb-bc37-0242c0a8e002	ebbecd47-5a62-11eb-bc37-0242c0a8e002	monique.schmitt@example.org	$argon2id$v=19$m=65536,t=4,p=1$OJTZLX0MSItWnU4w3VH...	Laurent	Leroux	2018-03-25 16:36:14	1959-10-21 10:48:16	
+ceb64ead-5a62-11eb-bc37-0242c0a8e002	ebbf45bd-5a62-11eb-bc37-0242c0a8e002	leleu.madeleine@example.com	$argon2id$v=19$m=65536,t=4,p=1$qAfIjBxXsFf97WBYORq...	Yves	Fernandes	2017-01-17 22:01:45	1993-05-17 09:26:36	
+ced4cd09-5a62-11eb-bc37-0242c0a8e002	ebc13034-5a62-11eb-bc37-0242c0a8e002	yves.hamel@example.com	$argon2id$v=19$m=65536,t=4,p=1$eN+4daPVVP7lE0/I8IT...	Anne	Descamps	2018-11-14 18:37:03	1937-06-27 22:44:01	
+cef1287b-5a62-11eb-bc37-0242c0a8e002	ebc1a2f2-5a62-11eb-bc37-0242c0a8e002	wmarechal@example.com	$argon2id$v=19$m=65536,t=4,p=1$jcwgPAYNq7fHe5BDSy0...	Véronique	Denis	2020-12-01 19:05:04	1934-02-16 11:14:13	
+cf12ce8f-5a62-11eb-bc37-0242c0a8e002	ebc2082f-5a62-11eb-bc37-0242c0a8e002	philippine36@example.com	$argon2id$v=19$m=65536,t=4,p=1$FRzmXUTRFcgktbdn+Ua...	Christelle	Fernandes	2018-03-16 09:38:23	1989-11-27 14:22:54	
+cf349228-5a62-11eb-bc37-0242c0a8e002	ebc34981-5a62-11eb-bc37-0242c0a8e002	cmary@example.org	$argon2id$v=19$m=65536,t=4,p=1$XN1VjINFL8QmRhf5tA7...	Matthieu	Louis	2013-07-03 12:59:54	1993-10-22 16:22:50	
+cf52bc14-5a62-11eb-bc37-0242c0a8e002	ebc3a823-5a62-11eb-bc37-0242c0a8e002	hlebon@example.org	$argon2id$v=19$m=65536,t=4,p=1$WdjKPwqdvlzLtID4ex2...	Clémence	Lemaitre	2016-08-24 22:37:37	1974-01-24 22:07:27	
+cf785706-5a62-11eb-bc37-0242c0a8e002	ebc3fda3-5a62-11eb-bc37-0242c0a8e002	penelope.salmon@example.net	$argon2id$v=19$m=65536,t=4,p=1$USDDaqVFdfTchg05lo0...	Dominique	Chevallier	2016-10-19 17:33:47	1966-11-24 05:25:43	
+cf9b2503-5a62-11eb-bc37-0242c0a8e002	ebc46225-5a62-11eb-bc37-0242c0a8e002	chauvin.christiane@example.net	$argon2id$v=19$m=65536,t=4,p=1$bnkeOe6qGLBzJpxQBG8...	Joseph	Roussel	2011-01-31 02:26:31	1948-08-18 17:18:03	
+cfc0c883-5a62-11eb-bc37-0242c0a8e002	ebc4e459-5a62-11eb-bc37-0242c0a8e002	maurice.christine@example.net	$argon2id$v=19$m=65536,t=4,p=1$rryFhugpn6Nf8P3juBX...	Margot	Mary	2011-12-26 20:58:11	1936-06-22 22:40:21	
+cfe8aa6a-5a62-11eb-bc37-0242c0a8e002	ebc571ba-5a62-11eb-bc37-0242c0a8e002	anne.lefort@example.net	$argon2id$v=19$m=65536,t=4,p=1$A04dIXVKXBm/1UFVwlm...	Patricia	Berthelot	2017-10-25 04:59:27	1937-02-07 18:36:14	
+d010f8ef-5a62-11eb-bc37-0242c0a8e002	ebc7303b-5a62-11eb-bc37-0242c0a8e002	uboyer@example.org	$argon2id$v=19$m=65536,t=4,p=1$0ERX4uCzOugQ1gq4Iv0...	Anne	Le Goff	2012-01-22 22:37:17	1977-05-30 22:09:11	
+d038de58-5a62-11eb-bc37-0242c0a8e002	ebc79a39-5a62-11eb-bc37-0242c0a8e002	garcia.thierry@example.net	$argon2id$v=19$m=65536,t=4,p=1$3RK6e2Q8g2a3vM3FI8d...	Marine	Lemaire	2014-01-30 18:20:15	1999-02-14 03:59:15	
+
+La liste de tous les utilisateurs rangée par noms de famille ;
+
+3WA/souleymanecoulibaly_mini_projetsql/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=users
+
+   Affichage des lignes 0 - 24 (total de 221, traitement en 0.0040 seconde(s).) [last_name: ALBERT... - BLIN...]
+
+
+SELECT * FROM users ORDER BY last_name ASC
+
+
+id	address_id	email	password	first_name	last_name   	registration_date	birthdate	
+ce637c47-5a62-11eb-bc37-0242c0a8e002	ebbdd3f5-5a62-11eb-bc37-0242c0a8e002	guillaume.berger@example.net	$argon2id$v=19$m=65536,t=4,p=1$fLsSUhcqHfqmzd2+8Qt...	Arthur	Albert	2020-02-22 17:36:37	1958-06-03 22:26:54	
+d6dcbde8-5a62-11eb-bc37-0242c0a8e002	ebe57fbd-5a62-11eb-bc37-0242c0a8e002	mendes.aime@example.com	$argon2id$v=19$m=65536,t=4,p=1$LP9tCrm+TW6T+zvIQAj...	Lorraine	Albert	2016-03-08 06:15:32	1951-04-10 00:06:34	
+e7e7ade2-5a62-11eb-bc37-0242c0a8e002	ec222c3f-5a62-11eb-bc37-0242c0a8e002	margaux28@example.com	$argon2id$v=19$m=65536,t=4,p=1$+yaynz/b/agqY4xEzo6...	Paul	Alves	2019-01-14 09:21:20	1967-06-20 10:57:36	
+d16b1734-5a62-11eb-bc37-0242c0a8e002	ebcb9ef8-5a62-11eb-bc37-0242c0a8e002	mschneider@example.net	$argon2id$v=19$m=65536,t=4,p=1$On1L1pGhkzKbXdkpjqW...	Capucine	Andre	2011-09-08 10:42:55	1961-02-03 21:20:38	
+e44498fb-5a62-11eb-bc37-0242c0a8e002	ec12131e-5a62-11eb-bc37-0242c0a8e002	ndelaunay@example.net	$argon2id$v=19$m=65536,t=4,p=1$Fl0x2BrP78bQqkpHe6+...	Frédérique	Andre	2020-04-16 03:05:07	1935-03-27 09:33:15	
+d2e19934-5a62-11eb-bc37-0242c0a8e002	ebd3bab8-5a62-11eb-bc37-0242c0a8e002	andre.legall@example.org	$argon2id$v=19$m=65536,t=4,p=1$fSPewJAx6fLdKCcM/XJ...	Andrée	Aubert	2016-08-26 11:35:26	1937-03-21 01:53:03	
+e4e99081-5a62-11eb-bc37-0242c0a8e002	ec148359-5a62-11eb-bc37-0242c0a8e002	suzanne.fouquet@example.com	$argon2id$v=19$m=65536,t=4,p=1$yNYUhBqIyy2c16Ql8Re...	Maurice	Barbier	2016-04-03 10:39:17	1956-11-06 17:38:28	
+e8e93fd2-5a62-11eb-bc37-0242c0a8e002	ec248c83-5a62-11eb-bc37-0242c0a8e002	paulette.boyer@example.org	$argon2id$v=19$m=65536,t=4,p=1$xh6Uaa9XCEu1PFhYy5h...	Jeannine	Barbier	2016-08-14 06:03:49	1954-12-19 23:48:46	
+d91ce08a-5a62-11eb-bc37-0242c0a8e002	ebec7939-5a62-11eb-bc37-0242c0a8e002	mcarlier@example.net	$argon2id$v=19$m=65536,t=4,p=1$hx2EKRpKBMQzOcq2A7n...	Sébastien	Barre	2018-04-25 18:40:04	1931-04-19 05:07:02	
+dfb349ea-5a62-11eb-bc37-0242c0a8e002	ebfdaead-5a62-11eb-bc37-0242c0a8e002	wleblanc@example.net	$argon2id$v=19$m=65536,t=4,p=1$YGreUTpRX/bS6LYJMEe...	Charlotte	Barre	2016-04-24 18:43:46	1959-09-27 17:57:30	
+e0e32aac-5a62-11eb-bc37-0242c0a8e002	ec02cd68-5a62-11eb-bc37-0242c0a8e002	benjamin88@example.net	$argon2id$v=19$m=65536,t=4,p=1$lF4Fi+R/rFTqW2DDNdC...	Émile	Barre	2014-09-19 00:44:44	1979-04-25 09:09:23	
+d372e1a4-5a62-11eb-bc37-0242c0a8e002	ebd73f7a-5a62-11eb-bc37-0242c0a8e002	desousa.daniel@example.net	$argon2id$v=19$m=65536,t=4,p=1$4WqW6qvuzmtHE4Hky+p...	Jules	Baudry	2015-06-29 16:12:37	1936-11-30 14:27:25	
+e3c5ae24-5a62-11eb-bc37-0242c0a8e002	ec0ff023-5a62-11eb-bc37-0242c0a8e002	lucy17@example.com	$argon2id$v=19$m=65536,t=4,p=1$0JTIFPfxC8BkuYYuwiL...	François	Bazin	2020-09-20 13:17:34	1960-01-21 18:45:13	
+d0fea219-5a62-11eb-bc37-0242c0a8e002	ebca6c9c-5a62-11eb-bc37-0242c0a8e002	bernadette61@example.org	$argon2id$v=19$m=65536,t=4,p=1$41oEvzvRYCgHUtGkfvf...	Suzanne	Begue	2015-07-22 23:57:20	1980-01-06 05:35:53	
+d972205c-5a62-11eb-bc37-0242c0a8e002	ebed737a-5a62-11eb-bc37-0242c0a8e002	nathalie16@example.net	$argon2id$v=19$m=65536,t=4,p=1$EA+tAj/T91Oiw24YRmd...	Margot	Begue	2015-01-03 11:34:36	1963-03-31 00:40:54	
+dabbf8c5-5a62-11eb-bc37-0242c0a8e002	ebf1eb35-5a62-11eb-bc37-0242c0a8e002	ihamon@example.net	$argon2id$v=19$m=65536,t=4,p=1$5aXF21THodzlqPSr0f2...	Élodie	Begue	2019-12-23 09:41:18	1971-10-12 07:50:22	
+d67f96c0-5a62-11eb-bc37-0242c0a8e002	ebe48641-5a62-11eb-bc37-0242c0a8e002	yves.maurice@example.org	$argon2id$v=19$m=65536,t=4,p=1$YFMXW19bbtJ5D800Hi9...	Margot	Benard	2017-04-19 16:31:10	1975-07-15 07:05:53	
+d6bd559f-5a62-11eb-bc37-0242c0a8e002	ebe52f8c-5a62-11eb-bc37-0242c0a8e002	jean25@example.net	$argon2id$v=19$m=65536,t=4,p=1$7H8NV+qIqeWz1h5vpKD...	Jacques	Bernier	2017-07-08 05:02:18	1939-10-06 01:10:22	
+d9d45f9f-5a62-11eb-bc37-0242c0a8e002	ebef41cb-5a62-11eb-bc37-0242c0a8e002	michel.richard@example.org	$argon2id$v=19$m=65536,t=4,p=1$t9ymKXSp9iDpfmCTSEg...	Franck	Bernier	2011-02-08 14:51:10	1995-09-30 22:26:56	
+cfe8aa6a-5a62-11eb-bc37-0242c0a8e002	ebc571ba-5a62-11eb-bc37-0242c0a8e002	anne.lefort@example.net	$argon2id$v=19$m=65536,t=4,p=1$A04dIXVKXBm/1UFVwlm...	Patricia	Berthelot	2017-10-25 04:59:27	1937-02-07 18:36:14	
+d2fe3a81-5a62-11eb-bc37-0242c0a8e002	ebd543f6-5a62-11eb-bc37-0242c0a8e002	audrey62@example.net	$argon2id$v=19$m=65536,t=4,p=1$VbXhu0uZq/kdFOXAyWj...	Augustin	Berthelot	2018-04-20 21:28:46	1961-04-19 23:14:03	
+d58098ed-5a62-11eb-bc37-0242c0a8e002	ebe193f6-5a62-11eb-bc37-0242c0a8e002	colette.girard@example.org	$argon2id$v=19$m=65536,t=4,p=1$AZW0qny+M92Uo0DHhkf...	Lucie	Berthelot	2016-11-05 18:15:17	2000-07-28 08:20:34	
+d7405d71-5a62-11eb-bc37-0242c0a8e002	ebe66daa-5a62-11eb-bc37-0242c0a8e002	wguillaume@example.net	$argon2id$v=19$m=65536,t=4,p=1$7mcnaqTiE4xjujo4/P6...	Dominique	Berthelot	2014-07-08 16:06:36	1951-10-26 08:42:27	
+e6849a6e-5a62-11eb-bc37-0242c0a8e002	ec1bf40b-5a62-11eb-bc37-0242c0a8e002	diane.boulanger@example.org	$argon2id$v=19$m=65536,t=4,p=1$/0mDeT4iKYWn3emH52r...	Manon	Besnard	2015-09-25 11:28:50	1974-01-03 22:39:41	
+dca570d6-5a62-11eb-bc37-0242c0a8e002	ebf58304-5a62-11eb-bc37-0242c0a8e002	agnes.dias@example.net	$argon2id$v=19$m=65536,t=4,p=1$NGnD7LHavSMSNDBPclt...	Christophe	Blin	2019-05-08 18:52:01	1954-12-20 15:25:13	
+
+Le dernier utilisateur inscrit ;
+
+3WA/souleymanecoulibaly_mini_projetsql/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=users
+
+   Affichage des lignes 0 -  0 (total de 1, traitement en 0.0035 seconde(s).) [registration_date: 2020-12-25 10:19:31... - 2020-12-25 10:19:31...]
+
+
+SELECT * FROM users ORDER BY registration_date DESC LIMIT 1
+
+
+
+d335aabf-5a62-11eb-bc37-0242c0a8e002	ebd654da-5a62-11eb-bc37-0242c0a8e002	tanguy.nathalie@example.org	$argon2id$v=19$m=65536,t=4,p=1$vRo7rgRPstWDTW4fOe4...	Julie	Jacob	2020-12-25 10:19:31	1946-12-24 04:25:33	
+
+
+La liste de tous les utilisateurs fêtant leur anniversaire ce mois-ci ;
+
+3WA/souleymanecoulibaly_mini_projetsql/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=users
+
+   Affichage des lignes 0 -  9 (total de 10, traitement en 0.0037 seconde(s).)
+
+
+SELECT * FROM `users` WHERE MONTH(birthdate)=MONTH(CURRENT_DATE())
+
+
+id	address_id	email	password	first_name	last_name	registration_date	birthdate	
+cef1287b-5a62-11eb-bc37-0242c0a8e002	ebc1a2f2-5a62-11eb-bc37-0242c0a8e002	wmarechal@example.com	$argon2id$v=19$m=65536,t=4,p=1$jcwgPAYNq7fHe5BDSy0...	Véronique	Denis	2020-12-01 19:05:04	1934-02-16 11:14:13	
+cfe8aa6a-5a62-11eb-bc37-0242c0a8e002	ebc571ba-5a62-11eb-bc37-0242c0a8e002	anne.lefort@example.net	$argon2id$v=19$m=65536,t=4,p=1$A04dIXVKXBm/1UFVwlm...	Patricia	Berthelot	2017-10-25 04:59:27	1937-02-07 18:36:14	
+d038de58-5a62-11eb-bc37-0242c0a8e002	ebc79a39-5a62-11eb-bc37-0242c0a8e002	garcia.thierry@example.net	$argon2id$v=19$m=65536,t=4,p=1$3RK6e2Q8g2a3vM3FI8d...	Marine	Lemaire	2014-01-30 18:20:15	1999-02-14 03:59:15	
+d08be4c2-5a62-11eb-bc37-0242c0a8e002	ebc90358-5a62-11eb-bc37-0242c0a8e002	xmerle@example.org	$argon2id$v=19$m=65536,t=4,p=1$xxNYT+j7JnF1irk1jEy...	Marine	Gaillard	2020-09-22 13:02:11	1994-02-26 00:48:07	
+d16b1734-5a62-11eb-bc37-0242c0a8e002	ebcb9ef8-5a62-11eb-bc37-0242c0a8e002	mschneider@example.net	$argon2id$v=19$m=65536,t=4,p=1$On1L1pGhkzKbXdkpjqW...	Capucine	Andre	2011-09-08 10:42:55	1961-02-03 21:20:38	
+d5132e92-5a62-11eb-bc37-0242c0a8e002	ebdf2ab1-5a62-11eb-bc37-0242c0a8e002	audrey.humbert@example.org	$argon2id$v=19$m=65536,t=4,p=1$ESeYXJ8HNMcsOUQ6WH4...	Sylvie	Godard	2012-10-12 05:51:55	1958-02-15 10:07:15	
+d990a01a-5a62-11eb-bc37-0242c0a8e002	ebedc004-5a62-11eb-bc37-0242c0a8e002	camille.becker@example.org	$argon2id$v=19$m=65536,t=4,p=1$htr0dF4ootQmTEIeqWS...	Jean	Rolland	2013-06-07 08:01:10	1935-02-20 20:25:48	
+da909dec-5a62-11eb-bc37-0242c0a8e002	ebf19ca7-5a62-11eb-bc37-0242c0a8e002	margaux.chauvin@example.com	$argon2id$v=19$m=65536,t=4,p=1$IUyB7BjXNLnBX8xwF19...	Antoine	Hubert	2012-03-27 11:40:34	1967-02-22 10:43:56	
+e966f982-5a62-11eb-bc37-0242c0a8e002	ec2741a9-5a62-11eb-bc37-0242c0a8e002	lejeune.margot@example.com	$argon2id$v=19$m=65536,t=4,p=1$IdedfeU46WVO0fUDL2v...	David	Mathieu	2019-11-10 19:26:35	1962-02-12 06:12:21	
+e9b76380-5a62-11eb-bc37-0242c0a8e002	ec27e31f-5a62-11eb-bc37-0242c0a8e002	lebrun.nath@example.com	$argon2id$v=19$m=65536,t=4,p=1$ucX4zi5fSOxIi3HRH2U...	Franck	Marchand	2014-11-28 14:49:16	1969-02-22 02:04:51	
+
+
+Le nombre total d'utilisateurs ;
+
+3WA/souleymanecoulibaly_mini_projetsql/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=users
+La requête SQL a été exécutée avec succès.
+
+SELECT COUNT(*) AS total_users FROM users
+
+
+
+221	
+
+
+La liste de tous les utilisateurs associés à leurs villes respectives ;
+
+3WA/souleymanecoulibaly_mini_projetsql/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=users
+
+   Affichage des lignes 0 - 24 (total de 221, traitement en 0.0045 seconde(s).)
+
+
+SELECT U.*, A.city from users U JOIN addresses A on U.address_id = A.id
+
+
+id	address_id	email	password	first_name	last_name	registration_date	birthdate	city	
+cd5272cb-5a62-11eb-bc37-0242c0a8e002	eb316afe-5a62-11eb-bc37-0242c0a8e002	xgoncalves@example.org	$argon2id$v=19$m=65536,t=4,p=1$l3lmgk7pqNnR8o1W3xl...	Caroline	Levy	2016-01-06 19:56:14	1944-08-14 04:43:38	Bonneau	
+cd6d6f97-5a62-11eb-bc37-0242c0a8e002	eb31e94b-5a62-11eb-bc37-0242c0a8e002	merle.andree@example.org	$argon2id$v=19$m=65536,t=4,p=1$phQ9OnraLEkYsw3JnUk...	Charles	Laporte	2020-05-28 16:06:07	1987-09-24 20:24:23	Diaz-sur-Mer	
+cd899d00-5a62-11eb-bc37-0242c0a8e002	eb327ca7-5a62-11eb-bc37-0242c0a8e002	dominique46@example.com	$argon2id$v=19$m=65536,t=4,p=1$KkXb5AyVzEhaNamXQg+...	Renée	Pascal	2013-08-15 23:36:48	1943-04-07 17:00:19	Torres	
+cda719ee-5a62-11eb-bc37-0242c0a8e002	eb331e14-5a62-11eb-bc37-0242c0a8e002	lucas.lejeune@example.com	$argon2id$v=19$m=65536,t=4,p=1$29OcwmicYQiB/0T5rPT...	Christine	Jourdan	2016-04-21 17:07:08	1987-03-31 05:24:35	Chartier	
+cdc18aaa-5a62-11eb-bc37-0242c0a8e002	eb33b1a2-5a62-11eb-bc37-0242c0a8e002	dumont.margaud@example.com	$argon2id$v=19$m=65536,t=4,p=1$EjkHxnbzsWyNeR7aWXj...	Alix	Gilles	2012-02-20 20:03:47	1967-09-13 04:25:31	Gomez-sur-Lebon	
+cddc9fa2-5a62-11eb-bc37-0242c0a8e002	eb3445c3-5a62-11eb-bc37-0242c0a8e002	zmarques@example.com	$argon2id$v=19$m=65536,t=4,p=1$yDNm+YH1P91EJY7MJga...	Henri	Garcia	2019-09-26 16:33:44	1973-05-12 00:40:48	Gilles-sur-Martin	
+cdf79b63-5a62-11eb-bc37-0242c0a8e002	eb34aff7-5a62-11eb-bc37-0242c0a8e002	susan04@example.org	$argon2id$v=19$m=65536,t=4,p=1$O7JB96rQZC3I2wsVQ/q...	Michelle	Monnier	2015-03-06 04:10:37	1958-01-29 02:42:09	Herve	
+ce120f9b-5a62-11eb-bc37-0242c0a8e002	eb3502cc-5a62-11eb-bc37-0242c0a8e002	capucine98@example.org	$argon2id$v=19$m=65536,t=4,p=1$2XEdiRMYUubMjv0Dyb9...	Geneviève	Dos Santos	2016-12-14 20:34:32	1953-12-02 10:08:37	DiazVille	
+ce2c5494-5a62-11eb-bc37-0242c0a8e002	ebbcc599-5a62-11eb-bc37-0242c0a8e002	emmanuelle74@example.org	$argon2id$v=19$m=65536,t=4,p=1$rmQ1NNJ9QK0+CAej1i/...	Thibaut	Delattre	2020-07-17 10:20:33	1944-04-17 18:51:21	Maurice-la-Forêt	
+ce48442e-5a62-11eb-bc37-0242c0a8e002	ebbd4146-5a62-11eb-bc37-0242c0a8e002	william.launay@example.net	$argon2id$v=19$m=65536,t=4,p=1$V6BIKLmaR85TckBtkG/...	Christelle	Joly	2019-09-27 00:44:16	1959-07-27 14:34:22	Lacombe-sur-Rousset	
+ce637c47-5a62-11eb-bc37-0242c0a8e002	ebbdd3f5-5a62-11eb-bc37-0242c0a8e002	guillaume.berger@example.net	$argon2id$v=19$m=65536,t=4,p=1$fLsSUhcqHfqmzd2+8Qt...	Arthur	Albert	2020-02-22 17:36:37	1958-06-03 22:26:54	Millet	
+ce7edfbb-5a62-11eb-bc37-0242c0a8e002	ebbe5043-5a62-11eb-bc37-0242c0a8e002	louis68@example.net	$argon2id$v=19$m=65536,t=4,p=1$jU5C127rRhyhFp4MMke...	Valérie	Pottier	2012-09-14 20:42:55	1985-12-05 08:14:38	MoreauBourg	
+ce990022-5a62-11eb-bc37-0242c0a8e002	ebbecd47-5a62-11eb-bc37-0242c0a8e002	monique.schmitt@example.org	$argon2id$v=19$m=65536,t=4,p=1$OJTZLX0MSItWnU4w3VH...	Laurent	Leroux	2018-03-25 16:36:14	1959-10-21 10:48:16	Bonneau	
+ceb64ead-5a62-11eb-bc37-0242c0a8e002	ebbf45bd-5a62-11eb-bc37-0242c0a8e002	leleu.madeleine@example.com	$argon2id$v=19$m=65536,t=4,p=1$qAfIjBxXsFf97WBYORq...	Yves	Fernandes	2017-01-17 22:01:45	1993-05-17 09:26:36	Traore-les-Bains	
+ced4cd09-5a62-11eb-bc37-0242c0a8e002	ebc13034-5a62-11eb-bc37-0242c0a8e002	yves.hamel@example.com	$argon2id$v=19$m=65536,t=4,p=1$eN+4daPVVP7lE0/I8IT...	Anne	Descamps	2018-11-14 18:37:03	1937-06-27 22:44:01	Mendes-sur-Martins	
+cef1287b-5a62-11eb-bc37-0242c0a8e002	ebc1a2f2-5a62-11eb-bc37-0242c0a8e002	wmarechal@example.com	$argon2id$v=19$m=65536,t=4,p=1$jcwgPAYNq7fHe5BDSy0...	Véronique	Denis	2020-12-01 19:05:04	1934-02-16 11:14:13	Barthelemy	
+cf12ce8f-5a62-11eb-bc37-0242c0a8e002	ebc2082f-5a62-11eb-bc37-0242c0a8e002	philippine36@example.com	$argon2id$v=19$m=65536,t=4,p=1$FRzmXUTRFcgktbdn+Ua...	Christelle	Fernandes	2018-03-16 09:38:23	1989-11-27 14:22:54	Voisinboeuf	
+cf349228-5a62-11eb-bc37-0242c0a8e002	ebc34981-5a62-11eb-bc37-0242c0a8e002	cmary@example.org	$argon2id$v=19$m=65536,t=4,p=1$XN1VjINFL8QmRhf5tA7...	Matthieu	Louis	2013-07-03 12:59:54	1993-10-22 16:22:50	Regnier	
+cf52bc14-5a62-11eb-bc37-0242c0a8e002	ebc3a823-5a62-11eb-bc37-0242c0a8e002	hlebon@example.org	$argon2id$v=19$m=65536,t=4,p=1$WdjKPwqdvlzLtID4ex2...	Clémence	Lemaitre	2016-08-24 22:37:37	1974-01-24 22:07:27	Gautier	
+cf785706-5a62-11eb-bc37-0242c0a8e002	ebc3fda3-5a62-11eb-bc37-0242c0a8e002	penelope.salmon@example.net	$argon2id$v=19$m=65536,t=4,p=1$USDDaqVFdfTchg05lo0...	Dominique	Chevallier	2016-10-19 17:33:47	1966-11-24 05:25:43	Lelievre	
+cf9b2503-5a62-11eb-bc37-0242c0a8e002	ebc46225-5a62-11eb-bc37-0242c0a8e002	chauvin.christiane@example.net	$argon2id$v=19$m=65536,t=4,p=1$bnkeOe6qGLBzJpxQBG8...	Joseph	Roussel	2011-01-31 02:26:31	1948-08-18 17:18:03	Delaunay	
+cfc0c883-5a62-11eb-bc37-0242c0a8e002	ebc4e459-5a62-11eb-bc37-0242c0a8e002	maurice.christine@example.net	$argon2id$v=19$m=65536,t=4,p=1$rryFhugpn6Nf8P3juBX...	Margot	Mary	2011-12-26 20:58:11	1936-06-22 22:40:21	Adam	
+cfe8aa6a-5a62-11eb-bc37-0242c0a8e002	ebc571ba-5a62-11eb-bc37-0242c0a8e002	anne.lefort@example.net	$argon2id$v=19$m=65536,t=4,p=1$A04dIXVKXBm/1UFVwlm...	Patricia	Berthelot	2017-10-25 04:59:27	1937-02-07 18:36:14	GuilletBourg	
+d010f8ef-5a62-11eb-bc37-0242c0a8e002	ebc7303b-5a62-11eb-bc37-0242c0a8e002	uboyer@example.org	$argon2id$v=19$m=65536,t=4,p=1$0ERX4uCzOugQ1gq4Iv0...	Anne	Le Goff	2012-01-22 22:37:17	1977-05-30 22:09:11	Godard-sur-Jacques	
+d038de58-5a62-11eb-bc37-0242c0a8e002	ebc79a39-5a62-11eb-bc37-0242c0a8e002	garcia.thierry@example.net	$argon2id$v=19$m=65536,t=4,p=1$3RK6e2Q8g2a3vM3FI8d...	Marine	Lemaire	2014-01-30 18:20:15	1999-02-14 03:59:15	Barthelemy-sur-Ruiz	
+
+
+La liste de tous les utilisateurs vivant à une adresse sans numéro ;
+
+3WA/souleymanecoulibaly_mini_projetsql/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=users
+
+   Affichage des lignes 0 - 24 (total de 45, traitement en 0.0043 seconde(s).)
+
+
+SELECT U.*, A.street, A.city FROM users U JOIN addresses A ON U.address_id = A.id WHERE A.number IS NULL
+
+
+id	address_id	email	password	first_name	last_name	registration_date	birthdate	street	city	
+cd5272cb-5a62-11eb-bc37-0242c0a8e002	eb316afe-5a62-11eb-bc37-0242c0a8e002	xgoncalves@example.org	$argon2id$v=19$m=65536,t=4,p=1$l3lmgk7pqNnR8o1W3xl...	Caroline	Levy	2016-01-06 19:56:14	1944-08-14 04:43:38	impasse Benjamin Bonneau	Bonneau	
+cda719ee-5a62-11eb-bc37-0242c0a8e002	eb331e14-5a62-11eb-bc37-0242c0a8e002	lucas.lejeune@example.com	$argon2id$v=19$m=65536,t=4,p=1$29OcwmicYQiB/0T5rPT...	Christine	Jourdan	2016-04-21 17:07:08	1987-03-31 05:24:35	boulevard Madeleine Perret	Chartier	
+cddc9fa2-5a62-11eb-bc37-0242c0a8e002	eb3445c3-5a62-11eb-bc37-0242c0a8e002	zmarques@example.com	$argon2id$v=19$m=65536,t=4,p=1$yDNm+YH1P91EJY7MJga...	Henri	Garcia	2019-09-26 16:33:44	1973-05-12 00:40:48	rue Laurent Schneider	Gilles-sur-Martin	
+ce120f9b-5a62-11eb-bc37-0242c0a8e002	eb3502cc-5a62-11eb-bc37-0242c0a8e002	capucine98@example.org	$argon2id$v=19$m=65536,t=4,p=1$2XEdiRMYUubMjv0Dyb9...	Geneviève	Dos Santos	2016-12-14 20:34:32	1953-12-02 10:08:37	avenue Vallee	DiazVille	
+ce637c47-5a62-11eb-bc37-0242c0a8e002	ebbdd3f5-5a62-11eb-bc37-0242c0a8e002	guillaume.berger@example.net	$argon2id$v=19$m=65536,t=4,p=1$fLsSUhcqHfqmzd2+8Qt...	Arthur	Albert	2020-02-22 17:36:37	1958-06-03 22:26:54	rue Isabelle Lebrun	Millet	
+cfc0c883-5a62-11eb-bc37-0242c0a8e002	ebc4e459-5a62-11eb-bc37-0242c0a8e002	maurice.christine@example.net	$argon2id$v=19$m=65536,t=4,p=1$rryFhugpn6Nf8P3juBX...	Margot	Mary	2011-12-26 20:58:11	1936-06-22 22:40:21	rue de Hamon	Adam	
+d010f8ef-5a62-11eb-bc37-0242c0a8e002	ebc7303b-5a62-11eb-bc37-0242c0a8e002	uboyer@example.org	$argon2id$v=19$m=65536,t=4,p=1$0ERX4uCzOugQ1gq4Iv0...	Anne	Le Goff	2012-01-22 22:37:17	1977-05-30 22:09:11	chemin Laurent Humbert	Godard-sur-Jacques	
+d065f200-5a62-11eb-bc37-0242c0a8e002	ebc8ae92-5a62-11eb-bc37-0242c0a8e002	langlois.ines@example.org	$argon2id$v=19$m=65536,t=4,p=1$4wDdVKjZZCUI8uAiclB...	Adrien	Blot	2014-06-28 16:56:02	1969-01-13 19:12:39	place Audrey Lesage	Hebert-sur-Aubry	
+d0fea219-5a62-11eb-bc37-0242c0a8e002	ebca6c9c-5a62-11eb-bc37-0242c0a8e002	bernadette61@example.org	$argon2id$v=19$m=65536,t=4,p=1$41oEvzvRYCgHUtGkfvf...	Suzanne	Begue	2015-07-22 23:57:20	1980-01-06 05:35:53	boulevard Lefort	Germain	
+d23194e1-5a62-11eb-bc37-0242c0a8e002	ebd00432-5a62-11eb-bc37-0242c0a8e002	marie.leon@example.org	$argon2id$v=19$m=65536,t=4,p=1$OoBqNWoNbqrYuDGmuLI...	Édouard	Rousseau	2018-08-06 14:34:05	1936-06-09 16:45:56	place Valérie Lesage	Bernard	
+d26a1232-5a62-11eb-bc37-0242c0a8e002	ebd0f848-5a62-11eb-bc37-0242c0a8e002	pierre.dupre@example.org	$argon2id$v=19$m=65536,t=4,p=1$uIxQT46Q363XPyOq4zN...	Margot	Guibert	2012-08-15 04:02:36	1984-06-09 17:47:50	rue Wagner	Arnaud-sur-Mer	
+d2e19934-5a62-11eb-bc37-0242c0a8e002	ebd3bab8-5a62-11eb-bc37-0242c0a8e002	andre.legall@example.org	$argon2id$v=19$m=65536,t=4,p=1$fSPewJAx6fLdKCcM/XJ...	Andrée	Aubert	2016-08-26 11:35:26	1937-03-21 01:53:03	place Denis Pruvost	Laporte	
+d549d0d2-5a62-11eb-bc37-0242c0a8e002	ebe003d5-5a62-11eb-bc37-0242c0a8e002	helene.reynaud@example.com	$argon2id$v=19$m=65536,t=4,p=1$2SZxi+VgtEOydYjfvj4...	Bertrand	Sanchez	2011-09-12 01:33:33	1972-09-04 22:39:52	boulevard de Thomas	Legendre	
+d59bd778-5a62-11eb-bc37-0242c0a8e002	ebe1e359-5a62-11eb-bc37-0242c0a8e002	gerard88@example.org	$argon2id$v=19$m=65536,t=4,p=1$nMQPfjAKV+7F4pXZGLL...	Étienne	Marques	2011-01-30 12:23:47	1956-11-27 13:12:04	rue Christiane Courtois	Gonzalez	
+d5f42b61-5a62-11eb-bc37-0242c0a8e002	ebe2daa6-5a62-11eb-bc37-0242c0a8e002	grenier.eleonore@example.net	$argon2id$v=19$m=65536,t=4,p=1$FPX+Ee3khvQ1rhUpQd3...	Sébastien	Bourgeois	2018-02-28 21:54:47	1954-10-10 10:42:34	rue Valérie Blanchet	Blanchet	
+d661be9f-5a62-11eb-bc37-0242c0a8e002	ebe43963-5a62-11eb-bc37-0242c0a8e002	olivie15@example.org	$argon2id$v=19$m=65536,t=4,p=1$Yxaoth5BfI0RZnhQc9A...	Rémy	Letellier	2020-11-13 21:51:45	1932-09-27 17:14:16	boulevard Weber	Mahe-sur-Brunet	
+d6bd559f-5a62-11eb-bc37-0242c0a8e002	ebe52f8c-5a62-11eb-bc37-0242c0a8e002	jean25@example.net	$argon2id$v=19$m=65536,t=4,p=1$7H8NV+qIqeWz1h5vpKD...	Jacques	Bernier	2017-07-08 05:02:18	1939-10-06 01:10:22	place de Leleu	Durand	
+d71d14ef-5a62-11eb-bc37-0242c0a8e002	ebe61afa-5a62-11eb-bc37-0242c0a8e002	capucine.petit@example.com	$argon2id$v=19$m=65536,t=4,p=1$me1A6Hr38TiRse+KmFr...	Mathilde	Collin	2020-07-16 11:51:12	1940-09-16 15:19:30	place Auguste Deschamps	Bouvetboeuf	
+d79deeec-5a62-11eb-bc37-0242c0a8e002	ebe81bba-5a62-11eb-bc37-0242c0a8e002	penelope.charpentier@example.org	$argon2id$v=19$m=65536,t=4,p=1$Ird2ZTd7SWqM2aYlgJQ...	Manon	Maurice	2015-10-13 05:44:43	2000-06-24 11:13:02	rue Zacharie Jacquet	Buisson	
+d8ff0f4d-5a62-11eb-bc37-0242c0a8e002	ebec2dd4-5a62-11eb-bc37-0242c0a8e002	aubry.stephane@example.org	$argon2id$v=19$m=65536,t=4,p=1$SMALYiHKpzveIshqiHq...	Tristan	Gaudin	2015-04-21 04:52:12	1955-11-13 22:07:41	chemin Denis Ramos	Mathieu	
+d91ce08a-5a62-11eb-bc37-0242c0a8e002	ebec7939-5a62-11eb-bc37-0242c0a8e002	mcarlier@example.net	$argon2id$v=19$m=65536,t=4,p=1$hx2EKRpKBMQzOcq2A7n...	Sébastien	Barre	2018-04-25 18:40:04	1931-04-19 05:07:02	rue Dijoux	Vasseur	
+d937abfb-5a62-11eb-bc37-0242c0a8e002	ebecd1cc-5a62-11eb-bc37-0242c0a8e002	auguste.poulain@example.com	$argon2id$v=19$m=65536,t=4,p=1$FSyStnjT6msvVMLhiQm...	Thibaut	Rousset	2012-04-12 16:56:24	1959-06-13 21:50:21	impasse Blanchard	Fischernec	
+d9f18c89-5a62-11eb-bc37-0242c0a8e002	ebef9434-5a62-11eb-bc37-0242c0a8e002	guillot.benoit@example.com	$argon2id$v=19$m=65536,t=4,p=1$ctGfvgePS2LgPe+KbaY...	Louis	Monnier	2015-04-30 20:02:38	1952-08-23 11:19:36	rue Devaux	Jourdan	
+dabbf8c5-5a62-11eb-bc37-0242c0a8e002	ebf1eb35-5a62-11eb-bc37-0242c0a8e002	ihamon@example.net	$argon2id$v=19$m=65536,t=4,p=1$5aXF21THodzlqPSr0f2...	Élodie	Begue	2019-12-23 09:41:18	1971-10-12 07:50:22	boulevard Arnaude Schneider	Humbert	
+db4a9945-5a62-11eb-bc37-0242c0a8e002	ebf2d6e5-5a62-11eb-bc37-0242c0a8e002	xlecomte@example.net	$argon2id$v=19$m=65536,t=4,p=1$atByLXSeBvs0Tvkc4ou...	Pénélope	Marques	2013-01-25 15:21:28	1966-03-23 19:57:31	avenue Patrick Lemaitre	Lopes	
+
+
+La liste de tous les produits dont le prix est supérieur à 1 000 € ;
+
+3WA/souleymanecoulibaly_mini_projetsql/products/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=products
+
+   Affichage des lignes 0 - 24 (total de 467, traitement en 0.0047 seconde(s).)
+
+
+SELECT * FROM `products` WHERE price > 1000
+
+
+id	name	description	price	
+ed20ff07-5a62-11eb-bc37-0242c0a8e002	LightPink	Quant au souvenir de sa magnanimité. L'envie lui v...	7925.59	
+ed223fb1-5a62-11eb-bc37-0242c0a8e002	Salmon	C'est qu'à travers le bourdonnement des théâtres e...	5383.56	
+ed2418e2-5a62-11eb-bc37-0242c0a8e002	MediumSpringGreen	Bovary. -- Non, non, je veux la garder. Homais, pa...	1531.09	
+ed268f3b-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Monumental. De temps à autre, nous demander à le b...	8970.05	
+ed2a1549-5a62-11eb-bc37-0242c0a8e002	Aqua	Charles répondit qu'ils s'en allaient sur la place...	3201.16	
+ed2c2bec-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	Voilà un mot plus haut que de n'y pas continuellem...	8459.04	
+ed2dd6cf-5a62-11eb-bc37-0242c0a8e002	Indigo 	Emma; et il ne chercha point à cette fille. Souven...	2624.95	
+ed2f324c-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Sortez du moins quelques Promenades dans les détai...	3754.79	
+ed30b68f-5a62-11eb-bc37-0242c0a8e002	SandyBrown	Ah! tant pis! qu'il me soit permis d'abord (avant ...	6767.83	
+ed321674-5a62-11eb-bc37-0242c0a8e002	DarkOliveGreen	Il se rappela ses autres attitudes en d'autres rêv...	3497.05	
+ed34a7ff-5a62-11eb-bc37-0242c0a8e002	RosyBrown	Ce fut vers cette époque, de quitter tes affection...	8741.74	
+ed362db6-5a62-11eb-bc37-0242c0a8e002	GreenYellow	Elle laissa dans la vallée, une filature de coton....	9320.31	
+ed378c72-5a62-11eb-bc37-0242c0a8e002	Thistle	Le rideau se baissa. L'odeur du gaz se mêlait le c...	3620.65	
+ed39027b-5a62-11eb-bc37-0242c0a8e002	PaleTurquoise	Emma songeait à son tour. -- Peut-être ne se douta...	3884.33	
+ed3bdfeb-5a62-11eb-bc37-0242c0a8e002	Turquoise	Ainsi, prêtant à six heures? Charles se promit de ...	6293.51	
+ed3f55db-5a62-11eb-bc37-0242c0a8e002	RosyBrown	Je vous remercie, dit la dame, respectueusement; e...	3400.2	
+ed40cfe5-5a62-11eb-bc37-0242c0a8e002	SandyBrown	Il aimait à se rappeler ainsi toutes les maîtresse...	3145.36	
+ed4203e9-5a62-11eb-bc37-0242c0a8e002	MediumOrchid	Elle connaissait à présent ne le rendît plus trist...	3585.92	
+ed430c4b-5a62-11eb-bc37-0242c0a8e002	PaleGreen	Mais, par ce qui fit des tours de force, on portai...	8115.16	
+ed440f32-5a62-11eb-bc37-0242c0a8e002	SeaShell	Puis la présence de cet appartement était une conc...	4850.85	
+ed451e73-5a62-11eb-bc37-0242c0a8e002	DarkSalmon	Nulle flammèche ne sera rien, dit-il en se tenant ...	4899.68	
+ed467f62-5a62-11eb-bc37-0242c0a8e002	Olive	Tellier, qui, enfin contraint de vendre, avait ach...	2527.99	
+ed480d6b-5a62-11eb-bc37-0242c0a8e002	MintCream	Ce pauvre Bovary qui m'avait laissée tout exprès! ...	8656.92	
+ed49312d-5a62-11eb-bc37-0242c0a8e002	OldLace	Il y a bien de chacun, à mesure que nous serions b...	2856.98	
+ed4a55b4-5a62-11eb-bc37-0242c0a8e002	Red	L'avait-elle donc perdue? Où la retrouver? Mais el...	8515.07	
+
+La liste de tous les produits associés à leurs photos respectives ;
+
+3WA/souleymanecoulibaly_mini_projetsql/products/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=products
+
+   Affichage des lignes 0 - 24 (total de 1244, traitement en 0.0057 seconde(s).)
+
+
+SELECT P.*, PP.url FROM products P JOIN pictures PP on P.id = PP.product_id
+
+
+id	name	description	price	url	
+ed20ff07-5a62-11eb-bc37-0242c0a8e002	LightPink	Quant au souvenir de sa magnanimité. L'envie lui v...	7925.59	http://lorempixel.com/640/480/?20688	
+ed223fb1-5a62-11eb-bc37-0242c0a8e002	Salmon	C'est qu'à travers le bourdonnement des théâtres e...	5383.56	http://lorempixel.com/640/480/?61726	
+ed223fb1-5a62-11eb-bc37-0242c0a8e002	Salmon	C'est qu'à travers le bourdonnement des théâtres e...	5383.56	http://lorempixel.com/640/480/?38510	
+ed223fb1-5a62-11eb-bc37-0242c0a8e002	Salmon	C'est qu'à travers le bourdonnement des théâtres e...	5383.56	http://lorempixel.com/640/480/?88439	
+ed2418e2-5a62-11eb-bc37-0242c0a8e002	MediumSpringGreen	Bovary. -- Non, non, je veux la garder. Homais, pa...	1531.09	http://lorempixel.com/640/480/?72613	
+ed2418e2-5a62-11eb-bc37-0242c0a8e002	MediumSpringGreen	Bovary. -- Non, non, je veux la garder. Homais, pa...	1531.09	http://lorempixel.com/640/480/?26429	
+ed2418e2-5a62-11eb-bc37-0242c0a8e002	MediumSpringGreen	Bovary. -- Non, non, je veux la garder. Homais, pa...	1531.09	http://lorempixel.com/640/480/?43580	
+ed2418e2-5a62-11eb-bc37-0242c0a8e002	MediumSpringGreen	Bovary. -- Non, non, je veux la garder. Homais, pa...	1531.09	http://lorempixel.com/640/480/?63797	
+ed268f3b-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Monumental. De temps à autre, nous demander à le b...	8970.05	http://lorempixel.com/640/480/?34731	
+ed268f3b-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Monumental. De temps à autre, nous demander à le b...	8970.05	http://lorempixel.com/640/480/?26308	
+ed281a26-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Vous croyez? fit-elle. -- Eh non! pourquoi déclame...	65.48	http://lorempixel.com/640/480/?90266	
+ed281a26-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Vous croyez? fit-elle. -- Eh non! pourquoi déclame...	65.48	http://lorempixel.com/640/480/?36101	
+ed281a26-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Vous croyez? fit-elle. -- Eh non! pourquoi déclame...	65.48	http://lorempixel.com/640/480/?79086	
+ed2a1549-5a62-11eb-bc37-0242c0a8e002	Aqua	Charles répondit qu'ils s'en allaient sur la place...	3201.16	http://lorempixel.com/640/480/?79590	
+ed2a1549-5a62-11eb-bc37-0242c0a8e002	Aqua	Charles répondit qu'ils s'en allaient sur la place...	3201.16	http://lorempixel.com/640/480/?70496	
+ed2c2bec-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	Voilà un mot plus haut que de n'y pas continuellem...	8459.04	http://lorempixel.com/640/480/?78192	
+ed2c2bec-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	Voilà un mot plus haut que de n'y pas continuellem...	8459.04	http://lorempixel.com/640/480/?94418	
+ed2c2bec-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	Voilà un mot plus haut que de n'y pas continuellem...	8459.04	http://lorempixel.com/640/480/?94917	
+ed2c2bec-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	Voilà un mot plus haut que de n'y pas continuellem...	8459.04	http://lorempixel.com/640/480/?29544	
+ed2dd6cf-5a62-11eb-bc37-0242c0a8e002	Indigo 	Emma; et il ne chercha point à cette fille. Souven...	2624.95	http://lorempixel.com/640/480/?80746	
+ed2dd6cf-5a62-11eb-bc37-0242c0a8e002	Indigo 	Emma; et il ne chercha point à cette fille. Souven...	2624.95	http://lorempixel.com/640/480/?84888	
+ed2f324c-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Sortez du moins quelques Promenades dans les détai...	3754.79	http://lorempixel.com/640/480/?36295	
+ed2f324c-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Sortez du moins quelques Promenades dans les détai...	3754.79	http://lorempixel.com/640/480/?76760	
+ed2f324c-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Sortez du moins quelques Promenades dans les détai...	3754.79	http://lorempixel.com/640/480/?17135	
+ed2f324c-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Sortez du moins quelques Promenades dans les détai...	3754.79	http://lorempixel.com/640/480/?45121	
+
+La liste de tous les produits appartenant à la catégorie « Voyage » ;
+
+3WA/souleymanecoulibaly_mini_projetsql/products/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=products
+
+   Affichage des lignes 0 - 499 (total de 1158, traitement en 0.0163 seconde(s).)
+
+
+SELECT P.*,PC.category_id,C.title FROM products P JOIN products_categories PC ON P.id = PC.product_id JOIN categories C  ON PC.category_id = C.id
+
+
+id	name	description	price	category_id	title	
+ed2dd6cf-5a62-11eb-bc37-0242c0a8e002	Indigo 	Emma; et il ne chercha point à cette fille. Souven...	2624.95	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed40cfe5-5a62-11eb-bc37-0242c0a8e002	SandyBrown	Il aimait à se rappeler ainsi toutes les maîtresse...	3145.36	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed440f32-5a62-11eb-bc37-0242c0a8e002	SeaShell	Puis la présence de cet appartement était une conc...	4850.85	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed49312d-5a62-11eb-bc37-0242c0a8e002	OldLace	Il y a bien de chacun, à mesure que nous serions b...	2856.98	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed4b68d0-5a62-11eb-bc37-0242c0a8e002	MediumOrchid	Elle va me croire plus insensible qu'un roc; il eû...	1375.76	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed5c76a2-5a62-11eb-bc37-0242c0a8e002	Snow	Berthe, en petit tablier blanc, raclait avec sa po...	8220.35	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed608f5e-5a62-11eb-bc37-0242c0a8e002	DarkOliveGreen	Et elle restait là. On s'était dit adieu, on ne ré...	8144.6	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed68b43e-5a62-11eb-bc37-0242c0a8e002	GreenYellow	Le feu se mourait dans les saignées, sautant par-d...	5348.4	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed6fa439-5a62-11eb-bc37-0242c0a8e002	DeepPink	Lheureux. Il revint chez lui sa petite tâche quoti...	6432.1	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed8615ad-5a62-11eb-bc37-0242c0a8e002	PeachPuff	Cependant, sous la Restauration, le Marquis, cherc...	1909.29	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed91e8c8-5a62-11eb-bc37-0242c0a8e002	MistyRose	Puis elle se trouva vermoulue d'hypothèques jusque...	9258.29	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed9828ab-5a62-11eb-bc37-0242c0a8e002	MediumVioletRed	En effet, les villageois, qui avaient signé, le pl...	5865.43	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed996dd8-5a62-11eb-bc37-0242c0a8e002	CadetBlue	Mais, quand il venait d'acquérir le château, avec ...	5582.27	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eda0c9d8-5a62-11eb-bc37-0242c0a8e002	PaleGoldenRod	Allez-vous-en! L'ecclésiastique le prit et lut: «R...	2787.74	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eda1d57d-5a62-11eb-bc37-0242c0a8e002	DarkOrchid	Rouen la pharmacie, ouverte à tout entendre. -- Po...	1138.41	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eda42847-5a62-11eb-bc37-0242c0a8e002	OliveDrab	Elle eut envie de faire la boule de neige! Et qui ...	7355.62	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eda90901-5a62-11eb-bc37-0242c0a8e002	DarkGoldenRod	Il se tenait toujours les reins à demi les yeux, e...	3355.41	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edab42cc-5a62-11eb-bc37-0242c0a8e002	CornflowerBlue	M. Hornais jouait à la file montèrent s'asseoir su...	6271.36	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edadc82a-5a62-11eb-bc37-0242c0a8e002	White	Il avait pris pour la première fois se révoltant, ...	6732.74	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edaeda3c-5a62-11eb-bc37-0242c0a8e002	LightSeaGreen	Emma avait eu l'idée de cette tête d'enfant toutes...	7502.8	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edb003bb-5a62-11eb-bc37-0242c0a8e002	ForestGreen	Souvent elle s'arrêtait plus blême que le gamin s'...	5776.27	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edbf8daa-5a62-11eb-bc37-0242c0a8e002	Lavender	Madame au premier étage, une petite livre de café ...	8300.45	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edc0a103-5a62-11eb-bc37-0242c0a8e002	PapayaWhip	Rien..., rien..., répétait Emma. Et son imaginatio...	866.35	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edc1b643-5a62-11eb-bc37-0242c0a8e002	LightYellow	M. Homais, comme de la terre. Ce n'était pas faite...	4964.37	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edc501bb-5a62-11eb-bc37-0242c0a8e002	LightYellow	Rodolphe lâcha les rênes; ils partirent ensemble, ...	3459.25	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ede0a8fe-5a62-11eb-bc37-0242c0a8e002	Moccasin	M. Bournisien s'y trouvait, et deux grands vases d...	2199.18	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ede46d96-5a62-11eb-bc37-0242c0a8e002	BlanchedAlmond	Mais enfin, monsieur, fit Emma, vous aviez donc la...	6871.47	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ede6ee91-5a62-11eb-bc37-0242c0a8e002	LemonChiffon	Emma pleurait, et il restait là, le souhaitait pre...	2421.44	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edef09f4-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Alors elle se penchait des deux côtés sur le malfa...	8701.98	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edf3cc83-5a62-11eb-bc37-0242c0a8e002	DarkSalmon	La chair s'effiloquait par lambeaux de phrases, qu...	7130.01	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edf60a98-5a62-11eb-bc37-0242c0a8e002	LawnGreen	Emma lut d'un clin d'oeil que tout était fini, et ...	7369.73	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+edf717db-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	M. Binet, qui éprouvait parfois des péripéties à l...	3643.89	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee04361e-5a62-11eb-bc37-0242c0a8e002	Salmon	Elle le jeta dans le vestibule, et les rideaux de ...	6568.74	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee1fd0ef-5a62-11eb-bc37-0242c0a8e002	Linen	Lucie dans ses bras. On le voyait sur sa belle toi...	6271.06	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee274541-5a62-11eb-bc37-0242c0a8e002	MediumBlue	Homais l'avait composé, de verve, dès le seuil reg...	6939.94	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee28c966-5a62-11eb-bc37-0242c0a8e002	DarkSlateBlue	Vous croyez? fit-elle. -- Ah! tant pis, il faut ét...	4046.43	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee2de4d8-5a62-11eb-bc37-0242c0a8e002	DarkGray	Emma; ne lui manquait à présent. -- Avec un sac de...	4603.3	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee346113-5a62-11eb-bc37-0242c0a8e002	Indigo 	Il aimait le père Rouault n'eût pas remarqué cette...	7472.66	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee366df3-5a62-11eb-bc37-0242c0a8e002	Lime	C'était chez la nourrice, qui avait un si beau tal...	1805.46	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee37e80f-5a62-11eb-bc37-0242c0a8e002	SeaShell	C'était Justin qui lui appartenait; et elle écouta...	3212.9	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee4086be-5a62-11eb-bc37-0242c0a8e002	LemonChiffon	La gangrène, en effet, logeait chez le pharmacien;...	7295.31	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee44f111-5a62-11eb-bc37-0242c0a8e002	Thistle	Ses deux yeux, fort gros et couverts de mousse. Qu...	1342.18	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee519a3c-5a62-11eb-bc37-0242c0a8e002	PeachPuff	Son foulard, noué sur sa joue, en tirait obliqueme...	8126.12	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee543d8d-5a62-11eb-bc37-0242c0a8e002	Snow	La mèche le cinglait sur ses genoux chancelèrent, ...	9410.08	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee56e40b-5a62-11eb-bc37-0242c0a8e002	CornflowerBlue	Le boc de Charles était sorti, elle allait commenc...	1475.88	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee5a5957-5a62-11eb-bc37-0242c0a8e002	Brown	Les verres à patte!!! souffla Homais. -- Silence! ...	974.13	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee60d849-5a62-11eb-bc37-0242c0a8e002	LavenderBlush	Avez-vous affaire quelque part? demanda-t-elle. Et...	3354.05	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee66090d-5a62-11eb-bc37-0242c0a8e002	LightCyan	Cependant les tables, alentour, se dégarnissaient;...	6952.08	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee7eeed8-5a62-11eb-bc37-0242c0a8e002	Aqua	Elle rangeait son linge dans les intervalles de ce...	1096.42	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee846cf7-5a62-11eb-bc37-0242c0a8e002	Darkorange	Elle lui trouvait un genre raide et anglais qui av...	4551.45	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee87eb71-5a62-11eb-bc37-0242c0a8e002	Crimson	Elle retira la sienne. Elle avait fait jurer qu'il...	6789.13	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee890ae9-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Le portrait de Rodolphe quand il fut décidé que le...	2480.92	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee8a1d6d-5a62-11eb-bc37-0242c0a8e002	Linen	Mais il n'était pas belle, point assez pâle peut-ê...	4411.45	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee8b2b97-5a62-11eb-bc37-0242c0a8e002	BlanchedAlmond	Va me chercher un pâtissier à Yvetot, pour les rap...	9555.7	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee97b57a-5a62-11eb-bc37-0242c0a8e002	Gold	Léon, en voiture! dit le notaire. Homais se présen...	1168.27	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ee99fcb2-5a62-11eb-bc37-0242c0a8e002	LimeGreen	Oh! je les excuse; tu les auras séduites, comme tu...	3517.92	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eeaa33ae-5a62-11eb-bc37-0242c0a8e002	BlueViolet	Alors, se penchant sur elle plutôt qu'il ne fît pa...	7260.55	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eeab7fef-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Personne au monde n'était beau comme sa levrette, ...	1276.41	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eeafcacb-5a62-11eb-bc37-0242c0a8e002	Gold	Le rayon lumineux qui montait sur une causeuse, où...	7605.27	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eeb24602-5a62-11eb-bc37-0242c0a8e002	Red	Société d'agriculture. Quand il fut pris d'un tel ...	2027.42	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eeb4613e-5a62-11eb-bc37-0242c0a8e002	WhiteSmoke	Cependant la religion dans un carton, et se mit à ...	1970.86	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eec0fb01-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Canivet, qui se trouvait avec elle des billets sou...	188.92	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eec25987-5a62-11eb-bc37-0242c0a8e002	DarkGoldenRod	La petite, la convenue, celle des sillons, planté ...	7516.54	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eed4fd79-5a62-11eb-bc37-0242c0a8e002	Navy	Tout maintenant semblait permis à cette même place...	6753.46	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eee0aee2-5a62-11eb-bc37-0242c0a8e002	Yellow	Elle décousait la doublure d'une robe, dont les ga...	62.14	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eee1c201-5a62-11eb-bc37-0242c0a8e002	Lavender	Emma sentait quelque chose qui ne bougeait pas de ...	9469.9	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eee3e299-5a62-11eb-bc37-0242c0a8e002	MediumPurple	Emma, trouva qu'elle avait un four, et qui dirige ...	4562.05	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eee77e75-5a62-11eb-bc37-0242c0a8e002	Orange	À la vue d'Emma, il parut soulagé d'un grand talen...	8933.88	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eee89c1a-5a62-11eb-bc37-0242c0a8e002	MediumOrchid	Rodolphe avait un grand fracas. -- Imbécile! s'écr...	8949.19	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eeeaf482-5a62-11eb-bc37-0242c0a8e002	Brown	Allons, bon appétit; à demain! Cette idée de Bovar...	1496.81	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eeec2051-5a62-11eb-bc37-0242c0a8e002	GhostWhite	Ah! très bien! très joli! Et des gravures!... Ah! ...	5110.18	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eef1b5ad-5a62-11eb-bc37-0242c0a8e002	DeepSkyBlue	Et cependant..., aujourd'hui..., je ne ruine pas a...	1108.72	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+eef3c341-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Moi? Rien..., rien..., répétait Emma. Et son regar...	8423.13	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef116d0d-5a62-11eb-bc37-0242c0a8e002	Aqua	Hélas! répliqua-t-il, les hommes avaient aussi leu...	2442.48	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef19bbc0-5a62-11eb-bc37-0242c0a8e002	OldLace	La chose valait la peine de s'ennuyer au couvent l...	9223.44	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef1f2e85-5a62-11eb-bc37-0242c0a8e002	Orchid	Il était mort. Trente-six heures après, sur la riv...	2936.26	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef216afb-5a62-11eb-bc37-0242c0a8e002	PowderBlue	Elle sauta toute la force s'exerce et où il s'étai...	1549.13	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef238295-5a62-11eb-bc37-0242c0a8e002	LightSteelBlue	Le gardien, qui est vraiment tapé! Il rembarre un ...	2246.27	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef273828-5a62-11eb-bc37-0242c0a8e002	DarkKhaki	Lheureux, il y avait, pour décorer l'appartement, ...	6296.38	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef2a5d1c-5a62-11eb-bc37-0242c0a8e002	DarkSeaGreen	Du reste, les étudiants de la fenêtre, elle voyait...	1231.79	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef33202a-5a62-11eb-bc37-0242c0a8e002	DarkOrchid	Homais restait tout éblouie devant la grande flamm...	6725.36	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef3a94ad-5a62-11eb-bc37-0242c0a8e002	LavenderBlush	Madame Bovary mère, qui consentit à lui poser des ...	5030.13	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef3ea68d-5a62-11eb-bc37-0242c0a8e002	Lavender	Félicité rentra. Elle l'avait envoyée aux aguets p...	7121.14	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef49fdad-5a62-11eb-bc37-0242c0a8e002	MidnightBlue	Et toi? Jamais madame Bovary s'étant avisée de pré...	742.76	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef5a4014-5a62-11eb-bc37-0242c0a8e002	Pink	Givry-Saint-Martin!» -- Aussi, moi, j'emporterai v...	5886.38	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef5f9afc-5a62-11eb-bc37-0242c0a8e002	SkyBlue	J'y passerai, dit Bovary. Continuez. -- Vous vous ...	4001.04	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef62dc6c-5a62-11eb-bc37-0242c0a8e002	Chocolate	Cologne qu'avait sa bru. Elle lui parut plus blanc...	4234.54	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef6aed3e-5a62-11eb-bc37-0242c0a8e002	DarkGreen	Ah! fort bien! Quant à Charles, il ne sait pas s'i...	4251.33	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef77aadc-5a62-11eb-bc37-0242c0a8e002	MediumPurple	Elle apportait d'Yonville des roses dans son assie...	5687.79	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef7e258a-5a62-11eb-bc37-0242c0a8e002	SlateBlue	Une telle intrigue nuirait plus tard ta reconnaiss...	9199.43	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef7f56d0-5a62-11eb-bc37-0242c0a8e002	Cyan	Caux et de discours, sans compter les centimes. Em...	3784.5	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef81607f-5a62-11eb-bc37-0242c0a8e002	Black	Tuvache y répondit par des compliments. Il fut d'a...	8872.69	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef83e5a1-5a62-11eb-bc37-0242c0a8e002	DarkCyan	Mais bientôt l'émotion disparut; et, se balançant ...	6704.03	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef852ba2-5a62-11eb-bc37-0242c0a8e002	MediumSlateBlue	Après le dîner, il rentrait. -- Regarde donc, cher...	769.4	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ef878416-5a62-11eb-bc37-0242c0a8e002	Blue	Rodolphe, avec madame Bovary, pensa-t-il, est bien...	6070.44	eb23b2d7-5a62-11eb-bc37-0242c0a8e002	Littérature	
+ed268f3b-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Monumental. De temps à autre, nous demander à le b...	8970.05	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed2f324c-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Sortez du moins quelques Promenades dans les détai...	3754.79	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed3bdfeb-5a62-11eb-bc37-0242c0a8e002	Turquoise	Ainsi, prêtant à six heures? Charles se promit de ...	6293.51	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed55eed8-5a62-11eb-bc37-0242c0a8e002	GreenYellow	Rodolphe, une cigarette à la retenir, elle répliqu...	8267.02	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed61a8f9-5a62-11eb-bc37-0242c0a8e002	MediumSeaGreen	Est-ce nourrice qui l'aurait pris? demanda-t-elle....	4136.88	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed63e0a4-5a62-11eb-bc37-0242c0a8e002	Olive	Il l'a assassiné de billets. -- Quelle épouvantabl...	6772.76	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed69b822-5a62-11eb-bc37-0242c0a8e002	White	Son mari, n'était-ce pas quelque chose de subtil é...	1854.84	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed6c1236-5a62-11eb-bc37-0242c0a8e002	White	On l'emmena; et il est le médecin de campagne rema...	1678.82	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed6d6107-5a62-11eb-bc37-0242c0a8e002	DodgerBlue	On en cite qui s'évanouissent à l'odeur de sa prob...	5921.67	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed755ed0-5a62-11eb-bc37-0242c0a8e002	PowderBlue	Emma. -- Certes, répondit Homais. Mais, que voulez...	3971.69	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed7d7df9-5a62-11eb-bc37-0242c0a8e002	LawnGreen	Il comprenait cela: une femme en se frottant l'une...	5329.22	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed872300-5a62-11eb-bc37-0242c0a8e002	SpringGreen	Monsieur n'est donc pas là? reprit-il. -- Il faut ...	6662.39	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed882b5c-5a62-11eb-bc37-0242c0a8e002	Teal	Ah! oui, reprenait Félicité, vous êtes bon! dit-el...	2224.14	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed9c8b08-5a62-11eb-bc37-0242c0a8e002	LightCoral	Emma voulut sortir; la foule par un signe de tête,...	505.68	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eda1d57d-5a62-11eb-bc37-0242c0a8e002	DarkOrchid	Rouen la pharmacie, ouverte à tout entendre. -- Po...	1138.41	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edaa1b5a-5a62-11eb-bc37-0242c0a8e002	Lime	Justin, qui souvent lui tenait compagnie, la regar...	884.63	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edab42cc-5a62-11eb-bc37-0242c0a8e002	CornflowerBlue	M. Hornais jouait à la file montèrent s'asseoir su...	6271.36	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edb003bb-5a62-11eb-bc37-0242c0a8e002	ForestGreen	Souvent elle s'arrêtait plus blême que le gamin s'...	5776.27	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edb1184a-5a62-11eb-bc37-0242c0a8e002	DarkOliveGreen	Elle était attelée de trois mille écus, il serra l...	6498.05	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edb34693-5a62-11eb-bc37-0242c0a8e002	LightCyan	Charles, à cause de quelque fiacre attardé qui rou...	890.15	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edb8e7e9-5a62-11eb-bc37-0242c0a8e002	NavajoWhite	Elle était neuve, et, comme il vit la carriole s'é...	3555.01	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edbe2a37-5a62-11eb-bc37-0242c0a8e002	Linen	En effet, il prononça ces mots, singulièrement: --...	8243.52	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edcc8650-5a62-11eb-bc37-0242c0a8e002	DarkCyan	Charles apprit qu'il y a sur le seuil de leur fuit...	8281.67	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edd34561-5a62-11eb-bc37-0242c0a8e002	Azure	Rodolphe, brusquement, prit un air de dédain mêlé ...	9484.45	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ede5b3f6-5a62-11eb-bc37-0242c0a8e002	LimeGreen	C'était Rodolphe. Elle poussa la porte était fermé...	9433.25	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edf4eed4-5a62-11eb-bc37-0242c0a8e002	GhostWhite	Champagne à la campagne ou en rameaux, des myosoti...	5559	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edf717db-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	M. Binet, qui éprouvait parfois des péripéties à l...	3643.89	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+edf8310b-5a62-11eb-bc37-0242c0a8e002	MediumOrchid	Bovary, un de nos sommités pharmaceutiques, un de ...	7623.74	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee0be52b-5a62-11eb-bc37-0242c0a8e002	ForestGreen	Homais, lorsqu'il allait à la lumière âpre du ciel...	3963.81	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee15a233-5a62-11eb-bc37-0242c0a8e002	MediumVioletRed	Quant à Charles, pour obéir, s'était rassis, et il...	3212.24	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee183a35-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Tenez! Puis, remontant la page avec son canif une ...	6640.24	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee23c0ec-5a62-11eb-bc37-0242c0a8e002	DodgerBlue	Calme-toi! reprends- toi!... Tu sais bien, ma peti...	8886.41	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee2a1853-5a62-11eb-bc37-0242c0a8e002	GhostWhite	Et, au bout de la route. Mais qui donc fournit à n...	9483.77	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee2c7e94-5a62-11eb-bc37-0242c0a8e002	Wheat	Elle lui donna son adresse: -- M. Léon, partis voi...	4891.57	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee3f66fb-5a62-11eb-bc37-0242c0a8e002	AliceBlue	Hivert même était retourné dans la commode sa bell...	7797.98	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee4a949e-5a62-11eb-bc37-0242c0a8e002	LightYellow	Emma; aussi j'étais toujours abonnée à un Créateur...	757.64	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee506fc9-5a62-11eb-bc37-0242c0a8e002	Orange	Les bâtons se terminant en flèche, les patères de ...	7510.6	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee5ea80c-5a62-11eb-bc37-0242c0a8e002	DarkRed	Assis sur une chaise contre les carreaux comme des...	3442.52	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee623f08-5a62-11eb-bc37-0242c0a8e002	DarkGreen	Jusqu'au soir, on mangea. Quand on est simple spec...	2039.44	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee6f0cc4-5a62-11eb-bc37-0242c0a8e002	Sienna	En rentrant, Charles se laissa conduire chez eux. ...	4871.57	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee778bc6-5a62-11eb-bc37-0242c0a8e002	NavajoWhite	Oh! ne bouge pas! ne parle pas à s'apaiser, éprouv...	5727.15	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee7dc172-5a62-11eb-bc37-0242c0a8e002	MediumTurquoise	Chaumière, où il y a du grabuge là-dessous. -- Et ...	6699.93	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ee935924-5a62-11eb-bc37-0242c0a8e002	IndianRed 	Ils mangeaient abondamment. Chacun s'en donnait po...	4902.13	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eea53732-5a62-11eb-bc37-0242c0a8e002	Indigo 	Pendant les trois fermoirs de cuivre plaquèrent de...	6916.39	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eeae47bc-5a62-11eb-bc37-0242c0a8e002	DarkCyan	Les petits Homais aussi venaient la voir; Justin l...	8871.3	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eeb82885-5a62-11eb-bc37-0242c0a8e002	WhiteSmoke	Mais tout à coup, si le hasard l'avait voulu. Ils ...	8218.83	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eebd9410-5a62-11eb-bc37-0242c0a8e002	Wheat	Avec ses bandeaux noirs, ses grands yeux, son nez ...	1984.12	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eebfda05-5a62-11eb-bc37-0242c0a8e002	DarkGreen	Ils mangeaient abondamment. Chacun s'en donnait po...	495.63	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eecb466f-5a62-11eb-bc37-0242c0a8e002	DimGray	Ainsi se tenait, devant ces bourgeois épanouis, ce...	6389	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eecc568b-5a62-11eb-bc37-0242c0a8e002	Green	Leurs yeux pourtant étaient pleins d'une majesté g...	471.07	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eed62548-5a62-11eb-bc37-0242c0a8e002	LightGreen	Ah! Léon!... Vraiment..., je ne sais pas trop où e...	8602.4	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eed75a23-5a62-11eb-bc37-0242c0a8e002	MediumTurquoise	Elle les retira vite de l'autre côté, à droite, ce...	5901.7	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eed86fe6-5a62-11eb-bc37-0242c0a8e002	White	Il se torturait à découvrir par quel moyen? On aur...	9485.83	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eed97556-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Charles avait le buste du monarque, et, les deux p...	9540.14	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eedcd81d-5a62-11eb-bc37-0242c0a8e002	SeaGreen	Il n'avait reçu la communion. -- Il n'y a plus ens...	9086.75	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eedf85f1-5a62-11eb-bc37-0242c0a8e002	LightGray	Aussi croyait-il à chaque bout du jardin, près de ...	979.85	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eee2cf8b-5a62-11eb-bc37-0242c0a8e002	GoldenRod	Ils avisèrent donc, le lendemain, elle s'embarqua ...	1459.58	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eeeaf482-5a62-11eb-bc37-0242c0a8e002	Brown	Allons, bon appétit; à demain! Cette idée de Bovar...	1496.81	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+eef9c565-5a62-11eb-bc37-0242c0a8e002	SteelBlue	Ce qui la chassait de sa bonne. Mais une jeune pay...	3853.63	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef0631fd-5a62-11eb-bc37-0242c0a8e002	LightCyan	Mais à peine dans l'autre, et, après les adieux ou...	5928.1	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef0886d9-5a62-11eb-bc37-0242c0a8e002	Indigo 	Ensuite il lui semblait aussi détaché de sa troisi...	4583.33	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef1608cb-5a62-11eb-bc37-0242c0a8e002	Lavender	Elle dessinait quelquefois; et c'était pour Charle...	9777.84	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef1e2110-5a62-11eb-bc37-0242c0a8e002	Beige	Alors il la reverrait. Il imaginait qu'elle était ...	8692.02	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef1f2e85-5a62-11eb-bc37-0242c0a8e002	Orchid	Il était mort. Trente-six heures après, sur la riv...	2936.26	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef2841f2-5a62-11eb-bc37-0242c0a8e002	Lavender	Maromme), et je crois, l'expression ecclésiastique...	4614.9	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef2c96f3-5a62-11eb-bc37-0242c0a8e002	DarkOrchid	Mais pardon, dit-elle, j'ai tort! je vous prie, un...	3893.32	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef2d9971-5a62-11eb-bc37-0242c0a8e002	Linen	Rolet sortit, leva les doigts à leurs papas, sembl...	666.25	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef2ebbc9-5a62-11eb-bc37-0242c0a8e002	Tan	C'est pour vous comme des brises de Russie! -- Ave...	7875.27	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef2fc95c-5a62-11eb-bc37-0242c0a8e002	Chocolate	Que n'avait-elle, au moins, c'est qu'ils pensent à...	8526.51	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef30d6d6-5a62-11eb-bc37-0242c0a8e002	OrangeRed	Cette idée de Bovary pour les solennités; redingot...	8308.34	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef3534d5-5a62-11eb-bc37-0242c0a8e002	Darkorange	M. Canivet, dont les longs câbles obliques frôlaie...	9967.04	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef398a8c-5a62-11eb-bc37-0242c0a8e002	Peru	Rodolphe, à cette invention du couvre-pied: -- Pou...	8378.37	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef42615e-5a62-11eb-bc37-0242c0a8e002	Fuchsia	Il dit même que M. Homais y était accourue, poussé...	5370.01	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef43d14a-5a62-11eb-bc37-0242c0a8e002	DarkOliveGreen	Madame Bovary mère, qui, après une épouvantable sc...	9660.43	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef54307b-5a62-11eb-bc37-0242c0a8e002	DeepSkyBlue	Léon en se dépitant, tandis que, sans y remarquer ...	3470.88	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef5686b2-5a62-11eb-bc37-0242c0a8e002	MediumSlateBlue	Amenez-la-moi! dit sa mère une longue énumération ...	2061.88	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef5a4014-5a62-11eb-bc37-0242c0a8e002	Pink	Givry-Saint-Martin!» -- Aussi, moi, j'emporterai v...	5886.38	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef5cab84-5a62-11eb-bc37-0242c0a8e002	LemonChiffon	Oh! oui, bien belle! Et, s'étant salués, on se dev...	5003.6	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef5f9afc-5a62-11eb-bc37-0242c0a8e002	SkyBlue	J'y passerai, dit Bovary. Continuez. -- Vous vous ...	4001.04	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef6631fd-5a62-11eb-bc37-0242c0a8e002	LightCyan	Boulle; ni des sifflets de vermeil pour ses fleurs...	4794.73	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef69ce90-5a62-11eb-bc37-0242c0a8e002	Gray	Ils entendaient derrière eux un grand mouvement de...	8881.72	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef6aed3e-5a62-11eb-bc37-0242c0a8e002	DarkGreen	Ah! fort bien! Quant à Charles, il ne sait pas s'i...	4251.33	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef7c6c5c-5a62-11eb-bc37-0242c0a8e002	BurlyWood	À côté, sur une petite livre de messe, après beauc...	5126.05	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef8060bb-5a62-11eb-bc37-0242c0a8e002	PeachPuff	Accoudé en face d'elle, demeurait immobile, les de...	7573.84	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ef826a24-5a62-11eb-bc37-0242c0a8e002	DarkKhaki	Rouen quels pouvaient être les prix d'un beau dagu...	4223.05	eb24ca7b-5a62-11eb-bc37-0242c0a8e002	Technologies	
+ed2a1549-5a62-11eb-bc37-0242c0a8e002	Aqua	Charles répondit qu'ils s'en allaient sur la place...	3201.16	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed362db6-5a62-11eb-bc37-0242c0a8e002	GreenYellow	Elle laissa dans la vallée, une filature de coton....	9320.31	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed3a4233-5a62-11eb-bc37-0242c0a8e002	Crimson	Bovary les examina. -- Je ne veux pas qu'on la sau...	389.87	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed4a55b4-5a62-11eb-bc37-0242c0a8e002	Red	L'avait-elle donc perdue? Où la retrouver? Mais el...	8515.07	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed4e42c9-5a62-11eb-bc37-0242c0a8e002	DarkSalmon	Des massifs d'ombre, çà et là, mais plus de bagage...	799.61	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed59396d-5a62-11eb-bc37-0242c0a8e002	BlanchedAlmond	Tout s'effaçait sous le trèfle des ogives, passaie...	3256.71	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed5f8b2d-5a62-11eb-bc37-0242c0a8e002	MediumSpringGreen	Charles, ayant fermé la porte, les lancer sous le ...	7975.62	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed62cbfa-5a62-11eb-bc37-0242c0a8e002	Salmon	Mais non! la campagne de France, et même j'en ai p...	9543.97	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed6d6107-5a62-11eb-bc37-0242c0a8e002	DodgerBlue	On en cite qui s'évanouissent à l'odeur de sa prob...	5921.67	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed7a9c41-5a62-11eb-bc37-0242c0a8e002	PeachPuff	Ah! ta robe est mouillée! -- Je ne les as pas! Ell...	8910.89	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed7d7df9-5a62-11eb-bc37-0242c0a8e002	LawnGreen	Il comprenait cela: une femme en se frottant l'une...	5329.22	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed80c22a-5a62-11eb-bc37-0242c0a8e002	LawnGreen	Lion d'or qui se répète dans la gare du chemin il ...	3624.59	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed81c9ea-5a62-11eb-bc37-0242c0a8e002	Thistle	Lheureux un capital, qu'il attendait impatiemment ...	9011.9	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed9306bc-5a62-11eb-bc37-0242c0a8e002	DimGrey	Picardie, une sorte d'assoupissement où, ses sensa...	9905.2	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed996dd8-5a62-11eb-bc37-0242c0a8e002	CadetBlue	Mais, quand il venait d'acquérir le château, avec ...	5582.27	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eda2df4f-5a62-11eb-bc37-0242c0a8e002	Purple	Souvent les pensionnaires s'échappaient de grands ...	8081.25	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eda54681-5a62-11eb-bc37-0242c0a8e002	Moccasin	Le pauvre diable vagabondant avec son regard arriv...	8239.37	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eda6d134-5a62-11eb-bc37-0242c0a8e002	Orange	Argueil et Rouen, qui ne lui en fournir un. Elle n...	2882.38	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+edab42cc-5a62-11eb-bc37-0242c0a8e002	CornflowerBlue	M. Hornais jouait à la file montèrent s'asseoir su...	6271.36	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+edb464cf-5a62-11eb-bc37-0242c0a8e002	DodgerBlue	Mais, le ressort du coté droit s'étant à la clarté...	2634.52	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+edb8e7e9-5a62-11eb-bc37-0242c0a8e002	NavajoWhite	Elle était neuve, et, comme il vit la carriole s'é...	3555.01	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+edbf8daa-5a62-11eb-bc37-0242c0a8e002	Lavender	Madame au premier étage, une petite livre de café ...	8300.45	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+edcdb9ba-5a62-11eb-bc37-0242c0a8e002	DarkRed	Rouen, pour voir la face cadavéreuse d'Emma, étend...	5680.85	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+edd34561-5a62-11eb-bc37-0242c0a8e002	Azure	Rodolphe, brusquement, prit un air de dédain mêlé ...	9484.45	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ede6ee91-5a62-11eb-bc37-0242c0a8e002	LemonChiffon	Emma pleurait, et il restait là, le souhaitait pre...	2421.44	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ede829e1-5a62-11eb-bc37-0242c0a8e002	LavenderBlush	Marquis s'avança, et, offrant son bras et maintena...	1091.97	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+edf0273f-5a62-11eb-bc37-0242c0a8e002	SlateBlue	Elle portait une petite livre de messe, après beau...	3635.73	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee020269-5a62-11eb-bc37-0242c0a8e002	Gold	Charles tisonnait avec placidité, les deux rangées...	3133.9	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee066917-5a62-11eb-bc37-0242c0a8e002	BlueViolet	Leroux, de Sassetot-la-Guerrière, pour cinquante-q...	5558.21	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee0778d1-5a62-11eb-bc37-0242c0a8e002	Crimson	Elle répétait qu'il fallait s'en réjouit, puisque ...	9461.31	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee136188-5a62-11eb-bc37-0242c0a8e002	DarkSalmon	Charles observa qu'il y a quelques truites, que le...	9799.75	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee1d4cd0-5a62-11eb-bc37-0242c0a8e002	SeaShell	Alors Homais demanda la maîtresse d'auberge, tout ...	4464.58	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee226e68-5a62-11eb-bc37-0242c0a8e002	DimGray	Emma, et le bruit sec de son chapeau et s'en allai...	1234.41	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee302483-5a62-11eb-bc37-0242c0a8e002	MediumSpringGreen	Mais c'était peut-être une farce, une vengeance de...	6269.48	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee3cb870-5a62-11eb-bc37-0242c0a8e002	Teal	Aujourd'hui cependant, vu la circonstance, il faut...	9749.53	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee4990e9-5a62-11eb-bc37-0242c0a8e002	DarkBlue	IX Il y avait des guêtres bouclées jusqu'aux genou...	3409.84	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee519a3c-5a62-11eb-bc37-0242c0a8e002	PeachPuff	Son foulard, noué sur sa joue, en tirait obliqueme...	8126.12	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee5c885c-5a62-11eb-bc37-0242c0a8e002	Lime	Au moins, si un magistrat... -- Mais quand? -- Tou...	1663.56	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee5ea80c-5a62-11eb-bc37-0242c0a8e002	DarkRed	Assis sur une chaise contre les carreaux comme des...	3442.52	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee6a265b-5a62-11eb-bc37-0242c0a8e002	LightSlateGray	Ah! mon Dieu, non! pas beaucoup. Alors il parla du...	8128.96	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee701ffd-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Mais pourquoi donc, songea-t-il après, en s'en rev...	3976.24	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee8a1d6d-5a62-11eb-bc37-0242c0a8e002	Linen	Mais il n'était pas belle, point assez pâle peut-ê...	4411.45	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee8d51f8-5a62-11eb-bc37-0242c0a8e002	HotPink	C'était cette rêverie que l'on tire par la pâleur ...	8909.1	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee8fff39-5a62-11eb-bc37-0242c0a8e002	BlueViolet	Yonville) était venue s'adjoindre au corps des mou...	7986.98	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee935924-5a62-11eb-bc37-0242c0a8e002	IndianRed 	Ils mangeaient abondamment. Chacun s'en donnait po...	4902.13	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ee96a244-5a62-11eb-bc37-0242c0a8e002	MediumSlateBlue	Charles l'avait voulu cependant, s'il s'en fût dou...	4574.51	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eea53732-5a62-11eb-bc37-0242c0a8e002	Indigo 	Pendant les trois fermoirs de cuivre plaquèrent de...	6916.39	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eeaa33ae-5a62-11eb-bc37-0242c0a8e002	BlueViolet	Alors, se penchant sur elle plutôt qu'il ne fît pa...	7260.55	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eeab7fef-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Personne au monde n'était beau comme sa levrette, ...	1276.41	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eebb60e4-5a62-11eb-bc37-0242c0a8e002	Sienna	Rodolphe, elle l'avait descendu tout au milieu de ...	7612.32	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eec6ac71-5a62-11eb-bc37-0242c0a8e002	Maroon	Elle avait des femmes. Il lui semblait se conduire...	1465.27	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eec7dd9b-5a62-11eb-bc37-0242c0a8e002	SeaShell	Rouen passer deux ans dans une maison blanche avec...	120.18	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eec8fab0-5a62-11eb-bc37-0242c0a8e002	LightCoral	Était-ce plus tard, à dix sous, et une Nuits. «Con...	9786.58	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eeca23e5-5a62-11eb-bc37-0242c0a8e002	LightGoldenRodYellow	Mais, chaque fois qu'elle était très modeste aujou...	5785.32	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eed3ee11-5a62-11eb-bc37-0242c0a8e002	Tomato	Mais laissez-moi! je veux la voir! c'est ma femme!...	3283.67	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eedcd81d-5a62-11eb-bc37-0242c0a8e002	SeaGreen	Il n'avait reçu la communion. -- Il n'y a plus ens...	9086.75	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eede0fba-5a62-11eb-bc37-0242c0a8e002	MediumSpringGreen	Voici de gentilles pâquerettes, dit-il, et de drap...	8686.24	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eeeaf482-5a62-11eb-bc37-0242c0a8e002	Brown	Allons, bon appétit; à demain! Cette idée de Bovar...	1496.81	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eef3c341-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Moi? Rien..., rien..., répétait Emma. Et son regar...	8423.13	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eef4d791-5a62-11eb-bc37-0242c0a8e002	LightSteelBlue	Ce n'est pas que de choses historiques, rêva bahut...	888.74	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+eef85aa9-5a62-11eb-bc37-0242c0a8e002	LightSlateGray	M. Homais, quant à moi, c'est Vinçart. -- Est-ce q...	4866.74	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef0631fd-5a62-11eb-bc37-0242c0a8e002	LightCyan	Mais à peine dans l'autre, et, après les adieux ou...	5928.1	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef09c3b6-5a62-11eb-bc37-0242c0a8e002	Indigo 	Lion d'or qui venaient tremper là, dans les livres...	8784.54	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef0aefcf-5a62-11eb-bc37-0242c0a8e002	CornflowerBlue	France ou à l'année, selon le souffle tiède de ses...	9019.13	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef273828-5a62-11eb-bc37-0242c0a8e002	DarkKhaki	Lheureux, il y avait, pour décorer l'appartement, ...	6296.38	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef3534d5-5a62-11eb-bc37-0242c0a8e002	Darkorange	M. Canivet, dont les longs câbles obliques frôlaie...	9967.04	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef3d9b06-5a62-11eb-bc37-0242c0a8e002	SteelBlue	Il fallut pourtant se séparer! Les adieux furent t...	9147.67	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef3ea68d-5a62-11eb-bc37-0242c0a8e002	Lavender	Félicité rentra. Elle l'avait envoyée aux aguets p...	7121.14	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef49fdad-5a62-11eb-bc37-0242c0a8e002	MidnightBlue	Et toi? Jamais madame Bovary s'étant avisée de pré...	742.76	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef4e452b-5a62-11eb-bc37-0242c0a8e002	LightGray	Non, pas de surprise; il se prenait d'une rage far...	1324.56	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef555f1c-5a62-11eb-bc37-0242c0a8e002	SandyBrown	Emma poussa la porte de l'auberge, enfonça la port...	9296.1	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef57a4ab-5a62-11eb-bc37-0242c0a8e002	BlueViolet	La pleine campagne s'étalait à perte de vue, et il...	193.84	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef5e68b9-5a62-11eb-bc37-0242c0a8e002	DarkSeaGreen	Annette! n'oublie pas les civilités qui lui serrai...	3022.89	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef63f101-5a62-11eb-bc37-0242c0a8e002	LimeGreen	Il l'engageait à prendre de bon vin, de bonne heur...	661.86	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef650ee4-5a62-11eb-bc37-0242c0a8e002	DarkGray	Bovary. Elle se tourna vers lui et les sermons, si...	8949.69	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef6631fd-5a62-11eb-bc37-0242c0a8e002	LightCyan	Boulle; ni des sifflets de vermeil pour ses fleurs...	4794.73	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef678271-5a62-11eb-bc37-0242c0a8e002	AliceBlue	Voilà, dit le pharmacien arriva. La servante parut...	7991.42	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef6aed3e-5a62-11eb-bc37-0242c0a8e002	DarkGreen	Ah! fort bien! Quant à Charles, il ne sait pas s'i...	4251.33	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef6d0648-5a62-11eb-bc37-0242c0a8e002	PaleVioletRed	Binet, immobile, restait le coude arrondi, la bouc...	6381.37	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef6f2d84-5a62-11eb-bc37-0242c0a8e002	MidnightBlue	Il y pensa moins, à mesure que le marquis d'Anderv...	7552.24	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef78a15f-5a62-11eb-bc37-0242c0a8e002	Teal	Je voulais vous exprimer seulement, madame Lefranç...	8972.22	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef7e258a-5a62-11eb-bc37-0242c0a8e002	SlateBlue	Une telle intrigue nuirait plus tard ta reconnaiss...	9199.43	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef878416-5a62-11eb-bc37-0242c0a8e002	Blue	Rodolphe, avec madame Bovary, pensa-t-il, est bien...	6070.44	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef89cd26-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Vus de si près, que la cause de la fontaine qui es...	3105.97	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ef8e25ac-5a62-11eb-bc37-0242c0a8e002	LightCoral	Les naïves, une larme qui tomba sur son épaule, el...	1740.88	eb25cb65-5a62-11eb-bc37-0242c0a8e002	Alimentation	
+ed2c2bec-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	Voilà un mot plus haut que de n'y pas continuellem...	8459.04	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed34a7ff-5a62-11eb-bc37-0242c0a8e002	RosyBrown	Ce fut vers cette époque, de quitter tes affection...	8741.74	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed362db6-5a62-11eb-bc37-0242c0a8e002	GreenYellow	Elle laissa dans la vallée, une filature de coton....	9320.31	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed378c72-5a62-11eb-bc37-0242c0a8e002	Thistle	Le rideau se baissa. L'odeur du gaz se mêlait le c...	3620.65	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed430c4b-5a62-11eb-bc37-0242c0a8e002	PaleGreen	Mais, par ce qui fit des tours de force, on portai...	8115.16	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed53ca49-5a62-11eb-bc37-0242c0a8e002	Salmon	N'importe, comptez sur moi; un mot! un seul mot! E...	6946.97	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed59396d-5a62-11eb-bc37-0242c0a8e002	BlanchedAlmond	Tout s'effaçait sous le trèfle des ogives, passaie...	3256.71	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed5e879c-5a62-11eb-bc37-0242c0a8e002	OrangeRed	Charles, en passant, différents articles qu'il se ...	2340.84	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed61a8f9-5a62-11eb-bc37-0242c0a8e002	MediumSeaGreen	Est-ce nourrice qui l'aurait pris? demanda-t-elle....	4136.88	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed66469e-5a62-11eb-bc37-0242c0a8e002	MidnightBlue	Bournisien demanda où il y avait sur la tête de Bo...	2550.27	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed6d6107-5a62-11eb-bc37-0242c0a8e002	DodgerBlue	On en cite qui s'évanouissent à l'odeur de sa prob...	5921.67	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed73e569-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Souvent quelque bête nocturne, hérisson ou belette...	2557.71	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed7bceb4-5a62-11eb-bc37-0242c0a8e002	DarkRed	Bournisien! Ainsi, regardez la plupart des gens bi...	1254.78	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed82f76c-5a62-11eb-bc37-0242c0a8e002	DimGray	L'apothicaire buvait, mangeait, parlait. -- Vous a...	7772.14	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eda0c9d8-5a62-11eb-bc37-0242c0a8e002	PaleGoldenRod	Allez-vous-en! L'ecclésiastique le prit et lut: «R...	2787.74	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+edab42cc-5a62-11eb-bc37-0242c0a8e002	CornflowerBlue	M. Hornais jouait à la file montèrent s'asseoir su...	6271.36	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+edaca735-5a62-11eb-bc37-0242c0a8e002	MediumTurquoise	Ensuite il lui semblait un outrage, et elle s'arrê...	270.97	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+edc7317e-5a62-11eb-bc37-0242c0a8e002	RosyBrown	Après un désespoir, il en fait l'expérience devant...	8117.94	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ede5b3f6-5a62-11eb-bc37-0242c0a8e002	LimeGreen	C'était Rodolphe. Elle poussa la porte était fermé...	9433.25	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+edeab03b-5a62-11eb-bc37-0242c0a8e002	SaddleBrown	Est-ce l'appréhension de l'inconnu..., l'effet des...	4447.46	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+edef09f4-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Alors elle se penchait des deux côtés sur le malfa...	8701.98	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+edf0273f-5a62-11eb-bc37-0242c0a8e002	SlateBlue	Elle portait une petite livre de messe, après beau...	3635.73	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee04361e-5a62-11eb-bc37-0242c0a8e002	Salmon	Elle le jeta dans le vestibule, et les rideaux de ...	6568.74	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee09b745-5a62-11eb-bc37-0242c0a8e002	LemonChiffon	Saint-Victor et fuma jusqu'au jour, tout en faisan...	3751.41	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee123913-5a62-11eb-bc37-0242c0a8e002	Crimson	Cologne qu'avait sa bru. Elle lui rappelait, en ma...	316.49	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee148802-5a62-11eb-bc37-0242c0a8e002	Brown	Malgré l'épargne où vivait Bovary, il était là, qu...	7183.03	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee183a35-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Tenez! Puis, remontant la page avec son canif une ...	6640.24	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee2b3547-5a62-11eb-bc37-0242c0a8e002	Crimson	Le long des châtelaines féodales; elle ressemblait...	2195.5	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee31304d-5a62-11eb-bc37-0242c0a8e002	LightGray	La figure un peu hâlées par le dessus de la boutiq...	8454.54	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee3247fc-5a62-11eb-bc37-0242c0a8e002	Crimson	Place depuis deux jours), était chargé d'une provi...	2323.91	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee393d58-5a62-11eb-bc37-0242c0a8e002	Chocolate	Les avirons carrés sonnaient entre les candélabres...	7738.75	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee3b9b6c-5a62-11eb-bc37-0242c0a8e002	BurlyWood	Ceux qui commençaient à vieillir avaient l'air jeu...	2500.21	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee3e1196-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Yonville. Charles en fut indigné, se lança même da...	8047.23	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee3f66fb-5a62-11eb-bc37-0242c0a8e002	AliceBlue	Hivert même était retourné dans la commode sa bell...	7797.98	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee4a949e-5a62-11eb-bc37-0242c0a8e002	LightYellow	Emma; aussi j'étais toujours abonnée à un Créateur...	757.64	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee4f3ef1-5a62-11eb-bc37-0242c0a8e002	SandyBrown	Elle lui parla à son bouquet de l'autre! Elle le p...	1345.85	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee52dd0c-5a62-11eb-bc37-0242c0a8e002	Turquoise	Entre la fenêtre à guillotine, on voyait à côté d'...	8303.42	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee543d8d-5a62-11eb-bc37-0242c0a8e002	Snow	La mèche le cinglait sur ses genoux chancelèrent, ...	9410.08	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee5806ae-5a62-11eb-bc37-0242c0a8e002	Darkorange	Il mettait du cosmétique à ses côtés et Athalie qu...	5054.03	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee5a5957-5a62-11eb-bc37-0242c0a8e002	Brown	Les verres à patte!!! souffla Homais. -- Silence! ...	974.13	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee5c885c-5a62-11eb-bc37-0242c0a8e002	Lime	Au moins, si un magistrat... -- Mais quand? -- Tou...	1663.56	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee5d91d7-5a62-11eb-bc37-0242c0a8e002	DarkMagenta	Elle demanda lesquelles, car Charles avait la tête...	1741.46	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee60d849-5a62-11eb-bc37-0242c0a8e002	LavenderBlush	Avez-vous affaire quelque part? demanda-t-elle. Et...	3354.05	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee86be94-5a62-11eb-bc37-0242c0a8e002	PaleGoldenRod	Elle resta quelques minutes à tenir entre ses doig...	2152.1	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee92413c-5a62-11eb-bc37-0242c0a8e002	Wheat	Le clerc eut beau dire qu'il n'en fallait pas moin...	4102.3	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee9467dc-5a62-11eb-bc37-0242c0a8e002	DimGrey	Elle devenait elle-même comme une corde de harpe p...	1510.74	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee98bc23-5a62-11eb-bc37-0242c0a8e002	Brown	Elle ne manquait point, il est temps. -- Oui, du c...	4378.69	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ee9c5796-5a62-11eb-bc37-0242c0a8e002	LightCoral	Souvent on entendait, dès la porte, les lancer sou...	5856.84	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eea2f4db-5a62-11eb-bc37-0242c0a8e002	RoyalBlue	Eh! non, c'est inutile! Il la voyait par derrière,...	5196.89	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eea65c31-5a62-11eb-bc37-0242c0a8e002	Peru	Il demanda, dans un stoïcisme muet, qu'elle garda ...	9070.33	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eead1892-5a62-11eb-bc37-0242c0a8e002	MidnightBlue	Il existait donc à poignée les lettres confondues,...	1377.56	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eeb5c614-5a62-11eb-bc37-0242c0a8e002	LightPink	En face, au-delà des toits, le grand poêle de porc...	5217.75	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eeb70a0f-5a62-11eb-bc37-0242c0a8e002	FireBrick	Maniant délicatement leurs belles reliures de sati...	7353.51	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eec25987-5a62-11eb-bc37-0242c0a8e002	DarkGoldenRod	La petite, la convenue, celle des sillons, planté ...	7516.54	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eec59b58-5a62-11eb-bc37-0242c0a8e002	SkyBlue	Je vous en veux pas, dit-il. Rodolphe était resté ...	2932.35	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eee1c201-5a62-11eb-bc37-0242c0a8e002	Lavender	Emma sentait quelque chose qui ne bougeait pas de ...	9469.9	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eeef762c-5a62-11eb-bc37-0242c0a8e002	Thistle	Rodolphe; j'agis dans son hôpital quand il aperçut...	6735.1	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eef4d791-5a62-11eb-bc37-0242c0a8e002	LightSteelBlue	Ce n'est pas que de choses historiques, rêva bahut...	888.74	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+eef72ccc-5a62-11eb-bc37-0242c0a8e002	Aqua	Emma tressaillant leva la tête en signe d'alliance...	4470.09	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef00b38d-5a62-11eb-bc37-0242c0a8e002	RosyBrown	À qui la rendait si malheureuse? où était la pire ...	7206.92	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef0406c3-5a62-11eb-bc37-0242c0a8e002	OldLace	Puis, à Emma, qui voulait monter dans l'Hirondelle...	6627.66	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef0631fd-5a62-11eb-bc37-0242c0a8e002	LightCyan	Mais à peine dans l'autre, et, après les adieux ou...	5928.1	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef116d0d-5a62-11eb-bc37-0242c0a8e002	Aqua	Hélas! répliqua-t-il, les hommes avaient aussi leu...	2442.48	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef1d1f1f-5a62-11eb-bc37-0242c0a8e002	Tomato	Un repas en tête-à-tête, une promenade le soir qu'...	5087.03	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef216afb-5a62-11eb-bc37-0242c0a8e002	PowderBlue	Elle sauta toute la force s'exerce et où il s'étai...	1549.13	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef32096a-5a62-11eb-bc37-0242c0a8e002	DarkSeaGreen	Rouault, debout maintenant, allait et venait, ce q...	6217.02	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef3534d5-5a62-11eb-bc37-0242c0a8e002	Darkorange	M. Canivet, dont les longs câbles obliques frôlaie...	9967.04	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef374b6a-5a62-11eb-bc37-0242c0a8e002	LightSalmon	Sa mère le nourrissait de confitures; son père dan...	3333.18	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef398a8c-5a62-11eb-bc37-0242c0a8e002	Peru	Rodolphe, à cette invention du couvre-pied: -- Pou...	8378.37	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef3ea68d-5a62-11eb-bc37-0242c0a8e002	Lavender	Félicité rentra. Elle l'avait envoyée aux aguets p...	7121.14	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef42615e-5a62-11eb-bc37-0242c0a8e002	Fuchsia	Il dit même que M. Homais y était accourue, poussé...	5370.01	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef454167-5a62-11eb-bc37-0242c0a8e002	LightSteelBlue	Elle aurait voulu être cet homme. L'autre continua...	4388.35	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef49fdad-5a62-11eb-bc37-0242c0a8e002	MidnightBlue	Et toi? Jamais madame Bovary s'étant avisée de pré...	742.76	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef4cf469-5a62-11eb-bc37-0242c0a8e002	LightGray	Parle-nous! disait Charles, parle-nous! Remets-toi...	160.16	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef60b1b8-5a62-11eb-bc37-0242c0a8e002	DarkKhaki	Cela ressemblait aussi à la fenêtre et s'accouda. ...	2236.97	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef6e1e7d-5a62-11eb-bc37-0242c0a8e002	Orchid	Que n'avait-elle, au moins, est libre; il peut par...	7448.76	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef748b34-5a62-11eb-bc37-0242c0a8e002	White	Saint-Victor et fuma jusqu'au jour, tout à coup. D...	2578.24	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef79be06-5a62-11eb-bc37-0242c0a8e002	ForestGreen	Il tira de sa profession; mais ils comptèrent dans...	8730.01	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef8060bb-5a62-11eb-bc37-0242c0a8e002	PeachPuff	Accoudé en face d'elle, demeurait immobile, les de...	7573.84	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef826a24-5a62-11eb-bc37-0242c0a8e002	DarkKhaki	Rouen quels pouvaient être les prix d'un beau dagu...	4223.05	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef83e5a1-5a62-11eb-bc37-0242c0a8e002	DarkCyan	Mais bientôt l'émotion disparut; et, se balançant ...	6704.03	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ef852ba2-5a62-11eb-bc37-0242c0a8e002	MediumSlateBlue	Après le dîner, il rentrait. -- Regarde donc, cher...	769.4	eb2688df-5a62-11eb-bc37-0242c0a8e002	Musiques	
+ed20ff07-5a62-11eb-bc37-0242c0a8e002	LightPink	Quant au souvenir de sa magnanimité. L'envie lui v...	7925.59	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed223fb1-5a62-11eb-bc37-0242c0a8e002	Salmon	C'est qu'à travers le bourdonnement des théâtres e...	5383.56	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed268f3b-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Monumental. De temps à autre, nous demander à le b...	8970.05	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed2a1549-5a62-11eb-bc37-0242c0a8e002	Aqua	Charles répondit qu'ils s'en allaient sur la place...	3201.16	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed39027b-5a62-11eb-bc37-0242c0a8e002	PaleTurquoise	Emma songeait à son tour. -- Peut-être ne se douta...	3884.33	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed40cfe5-5a62-11eb-bc37-0242c0a8e002	SandyBrown	Il aimait à se rappeler ainsi toutes les maîtresse...	3145.36	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed4203e9-5a62-11eb-bc37-0242c0a8e002	MediumOrchid	Elle connaissait à présent ne le rendît plus trist...	3585.92	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed467f62-5a62-11eb-bc37-0242c0a8e002	Olive	Tellier, qui, enfin contraint de vendre, avait ach...	2527.99	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed4cd28a-5a62-11eb-bc37-0242c0a8e002	MediumVioletRed	Et sur un tableau ad hoc, les noms de tous ces cor...	4175.05	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed508557-5a62-11eb-bc37-0242c0a8e002	DimGrey	Le médecin, bien entendu, fit encore les animaux. ...	8824.33	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed5191c9-5a62-11eb-bc37-0242c0a8e002	DodgerBlue	Ça ne nuit jamais, répliqua-t-il. Elle fut stoïque...	3828.53	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed54d3ce-5a62-11eb-bc37-0242c0a8e002	Cornsilk	Charles faisait à Yonville. C'était une de ses lec...	1536.91	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed59396d-5a62-11eb-bc37-0242c0a8e002	BlanchedAlmond	Tout s'effaçait sous le trèfle des ogives, passaie...	3256.71	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed5b5e8a-5a62-11eb-bc37-0242c0a8e002	Orchid	Elle aurait voulu que ce fût une leçon, un exemple...	3870.88	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed5c76a2-5a62-11eb-bc37-0242c0a8e002	Snow	Berthe, en petit tablier blanc, raclait avec sa po...	8220.35	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed5e879c-5a62-11eb-bc37-0242c0a8e002	OrangeRed	Charles, en passant, différents articles qu'il se ...	2340.84	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed66469e-5a62-11eb-bc37-0242c0a8e002	MidnightBlue	Bournisien demanda où il y avait sur la tête de Bo...	2550.27	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed872300-5a62-11eb-bc37-0242c0a8e002	SpringGreen	Monsieur n'est donc pas là? reprit-il. -- Il faut ...	6662.39	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed882b5c-5a62-11eb-bc37-0242c0a8e002	Teal	Ah! oui, reprenait Félicité, vous êtes bon! dit-el...	2224.14	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed9828ab-5a62-11eb-bc37-0242c0a8e002	MediumVioletRed	En effet, les villageois, qui avaient signé, le pl...	5865.43	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed9a7f36-5a62-11eb-bc37-0242c0a8e002	SlateBlue	On voyait des gens issus de campagnards, qui garde...	5414.82	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eda6d134-5a62-11eb-bc37-0242c0a8e002	Orange	Argueil et Rouen, qui ne lui en fournir un. Elle n...	2882.38	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eda7ec59-5a62-11eb-bc37-0242c0a8e002	DarkGray	C'est une chose si maussade, soupira le clerc, il ...	9863.83	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edaca735-5a62-11eb-bc37-0242c0a8e002	MediumTurquoise	Ensuite il lui semblait un outrage, et elle s'arrê...	270.97	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edb003bb-5a62-11eb-bc37-0242c0a8e002	ForestGreen	Souvent elle s'arrêtait plus blême que le gamin s'...	5776.27	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edb1184a-5a62-11eb-bc37-0242c0a8e002	DarkOliveGreen	Elle était attelée de trois mille écus, il serra l...	6498.05	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edb6b2a2-5a62-11eb-bc37-0242c0a8e002	MistyRose	Emma goûtait cet amour d'une façon si exclusive. C...	3204.83	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edc1b643-5a62-11eb-bc37-0242c0a8e002	LightYellow	M. Homais, comme de la terre. Ce n'était pas faite...	4964.37	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edced9f9-5a62-11eb-bc37-0242c0a8e002	LightCoral	Il vient de recevoir la récompense de vos messieur...	5050.73	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edcfe586-5a62-11eb-bc37-0242c0a8e002	Sienna	Tuvache et, régulièrement, de deux cent soixante e...	7092.52	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eddfa287-5a62-11eb-bc37-0242c0a8e002	Aqua	Hein! nos projets de bonheur qui aurait dû planter...	2652.61	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edec3b86-5a62-11eb-bc37-0242c0a8e002	LightCoral	Neufchâtel, qui était la catastrophe extraordinair...	5929.77	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ededf22c-5a62-11eb-bc37-0242c0a8e002	Gainsboro	Nous irons au Fanal de Rouen gisait par terre, à l...	2309.5	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edf947c5-5a62-11eb-bc37-0242c0a8e002	PapayaWhip	Bournisien l'interrompit, répliquant d'un ton bour...	2448.09	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edfd072e-5a62-11eb-bc37-0242c0a8e002	WhiteSmoke	Capitale! c'est comme le paysage sans caractère. C...	8295.95	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+edfe453d-5a62-11eb-bc37-0242c0a8e002	HoneyDew	Vassonville. Il entra dans sa chambre, toute sa pe...	7839.76	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee00cddb-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Sa bonté saute aux yeux! Il était vêtu d'une redin...	259.76	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee0899e3-5a62-11eb-bc37-0242c0a8e002	Peru	Binet. -- Halte! cria le Suisse, qui était pleine ...	5269.4	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee09b745-5a62-11eb-bc37-0242c0a8e002	LemonChiffon	Saint-Victor et fuma jusqu'au jour, tout en faisan...	3751.41	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee148802-5a62-11eb-bc37-0242c0a8e002	Brown	Malgré l'épargne où vivait Bovary, il était là, qu...	7183.03	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee1955eb-5a62-11eb-bc37-0242c0a8e002	DarkCyan	C'était l'heure du dîner dans une maison de santé,...	4883.86	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee1d4cd0-5a62-11eb-bc37-0242c0a8e002	SeaShell	Alors Homais demanda la maîtresse d'auberge, tout ...	4464.58	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee1e9b1d-5a62-11eb-bc37-0242c0a8e002	LightCoral	C'était une comédienne de Rouen, quotidiennement, ...	9680.04	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee346113-5a62-11eb-bc37-0242c0a8e002	Indigo 	Il aimait le père Rouault n'eût pas remarqué cette...	7472.66	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee393d58-5a62-11eb-bc37-0242c0a8e002	Chocolate	Les avirons carrés sonnaient entre les candélabres...	7738.75	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee3a75ba-5a62-11eb-bc37-0242c0a8e002	Purple	Oui, dit-elle, et j'ai eu des affaires. J'ai été m...	6992.67	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee543d8d-5a62-11eb-bc37-0242c0a8e002	Snow	La mèche le cinglait sur ses genoux chancelèrent, ...	9410.08	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee5ea80c-5a62-11eb-bc37-0242c0a8e002	DarkRed	Assis sur une chaise contre les carreaux comme des...	3442.52	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee623f08-5a62-11eb-bc37-0242c0a8e002	DarkGreen	Jusqu'au soir, on mangea. Quand on est simple spec...	2039.44	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee66090d-5a62-11eb-bc37-0242c0a8e002	LightCyan	Cependant les tables, alentour, se dégarnissaient;...	6952.08	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee6b2e6e-5a62-11eb-bc37-0242c0a8e002	LightCoral	Le marchand ne se rappelait-il plus ses soupers ap...	3436.39	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee6f0cc4-5a62-11eb-bc37-0242c0a8e002	Sienna	En rentrant, Charles se laissa conduire chez eux. ...	4871.57	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee7128d5-5a62-11eb-bc37-0242c0a8e002	DarkSlateGray	Oh! je l'ai encore vue samedi dernier dans ma bout...	6161.71	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee72476c-5a62-11eb-bc37-0242c0a8e002	MediumOrchid	Oui. -- Tu crois?... Et cette interrogation voulai...	9606.38	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee7dc172-5a62-11eb-bc37-0242c0a8e002	MediumTurquoise	Chaumière, où il y a du grabuge là-dessous. -- Et ...	6699.93	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee80369b-5a62-11eb-bc37-0242c0a8e002	Wheat	À qui la charmaient. Elle devenait irritable, gour...	5669.39	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee9120ea-5a62-11eb-bc37-0242c0a8e002	SpringGreen	Emma de lire des vers; Léon les déclamait d'une vo...	199.66	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ee92413c-5a62-11eb-bc37-0242c0a8e002	Wheat	Le clerc eut beau dire qu'il n'en fallait pas moin...	4102.3	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eea05a6a-5a62-11eb-bc37-0242c0a8e002	AntiqueWhite	Elle resta jusqu'au soir à se rompre la poitrine. ...	4674.29	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eea2f4db-5a62-11eb-bc37-0242c0a8e002	RoyalBlue	Eh! non, c'est inutile! Il la voyait par derrière,...	5196.89	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eeb1025b-5a62-11eb-bc37-0242c0a8e002	Lavender	Cadet de Gassicourt! Madame Homais s'avança. -- No...	220.58	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eeb82885-5a62-11eb-bc37-0242c0a8e002	WhiteSmoke	Mais tout à coup, si le hasard l'avait voulu. Ils ...	8218.83	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eec6ac71-5a62-11eb-bc37-0242c0a8e002	Maroon	Elle avait des femmes. Il lui semblait se conduire...	1465.27	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eecc568b-5a62-11eb-bc37-0242c0a8e002	Green	Leurs yeux pourtant étaient pleins d'une majesté g...	471.07	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eed2d291-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Ce qu'il y a la mauvaise littérature comme il le p...	3270.87	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eee2cf8b-5a62-11eb-bc37-0242c0a8e002	GoldenRod	Ils avisèrent donc, le lendemain, elle s'embarqua ...	1459.58	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eeed47a5-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	Madame Bovary mère voulut s'en aller. Rien pourtan...	7269.89	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eeee6a3f-5a62-11eb-bc37-0242c0a8e002	ForestGreen	Homais faisait grincer sa plume pour rêver quelque...	9697.61	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eef1b5ad-5a62-11eb-bc37-0242c0a8e002	DeepSkyBlue	Et cependant..., aujourd'hui..., je ne ruine pas a...	1108.72	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eef4d791-5a62-11eb-bc37-0242c0a8e002	LightSteelBlue	Ce n'est pas que de choses historiques, rêva bahut...	888.74	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eef72ccc-5a62-11eb-bc37-0242c0a8e002	Aqua	Emma tressaillant leva la tête en signe d'alliance...	4470.09	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+eefe82ba-5a62-11eb-bc37-0242c0a8e002	DarkSlateBlue	Dès le soir, n'alla pas chez ses malades, il s'occ...	6750.23	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef02ebea-5a62-11eb-bc37-0242c0a8e002	PaleVioletRed	Par file à gauche! Et, après, un port d'armes où l...	7071.43	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef074f0d-5a62-11eb-bc37-0242c0a8e002	DeepSkyBlue	Mais, quand il fallait se séparer, tout leur sembl...	4037.84	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef0886d9-5a62-11eb-bc37-0242c0a8e002	Indigo 	Ensuite il lui semblait aussi détaché de sa troisi...	4583.33	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef14f813-5a62-11eb-bc37-0242c0a8e002	Tan	Peu à peu, tandis que sa figure. Elle souriait là-...	9809.36	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef19bbc0-5a62-11eb-bc37-0242c0a8e002	OldLace	La chose valait la peine de s'ennuyer au couvent l...	9223.44	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef1d1f1f-5a62-11eb-bc37-0242c0a8e002	Tomato	Un repas en tête-à-tête, une promenade le soir qu'...	5087.03	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef238295-5a62-11eb-bc37-0242c0a8e002	LightSteelBlue	Le gardien, qui est vraiment tapé! Il rembarre un ...	2246.27	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef273828-5a62-11eb-bc37-0242c0a8e002	DarkKhaki	Lheureux, il y avait, pour décorer l'appartement, ...	6296.38	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef2a5d1c-5a62-11eb-bc37-0242c0a8e002	DarkSeaGreen	Du reste, les étudiants de la fenêtre, elle voyait...	1231.79	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef2c96f3-5a62-11eb-bc37-0242c0a8e002	DarkOrchid	Mais pardon, dit-elle, j'ai tort! je vous prie, un...	3893.32	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef374b6a-5a62-11eb-bc37-0242c0a8e002	LightSalmon	Sa mère le nourrissait de confitures; son père dan...	3333.18	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef3c9e23-5a62-11eb-bc37-0242c0a8e002	Wheat	Arrivé devant l'hôtel de la barrière, retenant son...	3529.38	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef46ad32-5a62-11eb-bc37-0242c0a8e002	ForestGreen	Puis, que de son esprit, si bien qu'elle exécrât T...	5596.27	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef4cf469-5a62-11eb-bc37-0242c0a8e002	LightGray	Parle-nous! disait Charles, parle-nous! Remets-toi...	160.16	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef52f3b3-5a62-11eb-bc37-0242c0a8e002	NavajoWhite	Mais Léon tira vivement une pièce d'amour en son i...	1602.14	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef54307b-5a62-11eb-bc37-0242c0a8e002	DeepSkyBlue	Léon en se dépitant, tandis que, sans y remarquer ...	3470.88	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef60b1b8-5a62-11eb-bc37-0242c0a8e002	DarkKhaki	Cela ressemblait aussi à la fenêtre et s'accouda. ...	2236.97	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef62dc6c-5a62-11eb-bc37-0242c0a8e002	Chocolate	Cologne qu'avait sa bru. Elle lui parut plus blanc...	4234.54	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef6e1e7d-5a62-11eb-bc37-0242c0a8e002	Orchid	Que n'avait-elle, au moins, est libre; il peut par...	7448.76	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef705386-5a62-11eb-bc37-0242c0a8e002	LawnGreen	Il la questionna; elle ne partageait pas son petit...	9945.49	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef71605e-5a62-11eb-bc37-0242c0a8e002	GreenYellow	Elle tirait de l'autre main sa candidature à la fo...	3523.73	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef7adb00-5a62-11eb-bc37-0242c0a8e002	DarkSeaGreen	Il le regarda brûler. Les petites baies de genièvr...	2601.89	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef7e258a-5a62-11eb-bc37-0242c0a8e002	SlateBlue	Une telle intrigue nuirait plus tard ta reconnaiss...	9199.43	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef7f56d0-5a62-11eb-bc37-0242c0a8e002	Cyan	Caux et de discours, sans compter les centimes. Em...	3784.5	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef83e5a1-5a62-11eb-bc37-0242c0a8e002	DarkCyan	Mais bientôt l'émotion disparut; et, se balançant ...	6704.03	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ef8cfd2c-5a62-11eb-bc37-0242c0a8e002	MidnightBlue	À demain, donc! dit Emma d'une voix tranquille: vo...	290.09	eb274f83-5a62-11eb-bc37-0242c0a8e002	Jeux-vidéos	
+ed2c2bec-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	Voilà un mot plus haut que de n'y pas continuellem...	8459.04	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed2dd6cf-5a62-11eb-bc37-0242c0a8e002	Indigo 	Emma; et il ne chercha point à cette fille. Souven...	2624.95	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed5191c9-5a62-11eb-bc37-0242c0a8e002	DodgerBlue	Ça ne nuit jamais, répliqua-t-il. Elle fut stoïque...	3828.53	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed582b61-5a62-11eb-bc37-0242c0a8e002	SlateBlue	Les autres gens de lettres et des têtes de Sarrasi...	4516.6	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed5b5e8a-5a62-11eb-bc37-0242c0a8e002	Orchid	Elle aurait voulu que ce fût une leçon, un exemple...	3870.88	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed67746f-5a62-11eb-bc37-0242c0a8e002	Teal	Charles ne savait pas, il n'osait, l'urgence d'une...	3041.26	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed68b43e-5a62-11eb-bc37-0242c0a8e002	GreenYellow	Le feu se mourait dans les saignées, sautant par-d...	5348.4	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed6ae10c-5a62-11eb-bc37-0242c0a8e002	Gold	Hivert ne savait auquel répondre. C'était lui qui ...	3046.28	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed7d7df9-5a62-11eb-bc37-0242c0a8e002	LawnGreen	Il comprenait cela: une femme en se frottant l'une...	5329.22	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed81c9ea-5a62-11eb-bc37-0242c0a8e002	Thistle	Lheureux un capital, qu'il attendait impatiemment ...	9011.9	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ed9b7f1c-5a62-11eb-bc37-0242c0a8e002	LightGray	Il causait avec elle jusqu'au bout du perron; des ...	32.18	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+eda0c9d8-5a62-11eb-bc37-0242c0a8e002	PaleGoldenRod	Allez-vous-en! L'ecclésiastique le prit et lut: «R...	2787.74	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+eda7ec59-5a62-11eb-bc37-0242c0a8e002	DarkGray	C'est une chose si maussade, soupira le clerc, il ...	9863.83	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edaca735-5a62-11eb-bc37-0242c0a8e002	MediumTurquoise	Ensuite il lui semblait un outrage, et elle s'arrê...	270.97	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edb1184a-5a62-11eb-bc37-0242c0a8e002	DarkOliveGreen	Elle était attelée de trois mille écus, il serra l...	6498.05	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edb6b2a2-5a62-11eb-bc37-0242c0a8e002	MistyRose	Emma goûtait cet amour d'une façon si exclusive. C...	3204.83	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edbcaa4e-5a62-11eb-bc37-0242c0a8e002	Gray	Créateur, quel qu'il soit, peu m'importe, qui nous...	289.23	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edced9f9-5a62-11eb-bc37-0242c0a8e002	LightCoral	Il vient de recevoir la récompense de vos messieur...	5050.73	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edd0f706-5a62-11eb-bc37-0242c0a8e002	DarkTurquoise	On en voit qui circulent isolément, et qui, passan...	1412.63	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edd455e3-5a62-11eb-bc37-0242c0a8e002	DarkCyan	M. Binet, attablé. Ce dîner de son tablier les deu...	5771.48	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edd5b742-5a62-11eb-bc37-0242c0a8e002	LavenderBlush	Emma frissonna de toute sa fortune. Il lui écrivai...	9130.83	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+eddab21b-5a62-11eb-bc37-0242c0a8e002	LavenderBlush	Il sort de tes baisers, et voilà la petite salle, ...	3643.77	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ede829e1-5a62-11eb-bc37-0242c0a8e002	LavenderBlush	Marquis s'avança, et, offrant son bras et maintena...	1091.97	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ededf22c-5a62-11eb-bc37-0242c0a8e002	Gainsboro	Nous irons au Fanal de Rouen gisait par terre, à l...	2309.5	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edf14fc0-5a62-11eb-bc37-0242c0a8e002	MediumTurquoise	Il y avait dans tout cela, je vous regardais par l...	5193.73	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edf3cc83-5a62-11eb-bc37-0242c0a8e002	DarkSalmon	La chair s'effiloquait par lambeaux de phrases, qu...	7130.01	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edf60a98-5a62-11eb-bc37-0242c0a8e002	LawnGreen	Emma lut d'un clin d'oeil que tout était fini, et ...	7369.73	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edfa603c-5a62-11eb-bc37-0242c0a8e002	PaleVioletRed	Elle lui sauta au cou; ils se racontèrent les peti...	6707.42	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+edfbddc2-5a62-11eb-bc37-0242c0a8e002	GoldenRod	De temps à autre, comme par une multitude d'hypoth...	3877.77	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee0778d1-5a62-11eb-bc37-0242c0a8e002	Crimson	Elle répétait qu'il fallait s'en réjouit, puisque ...	9461.31	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee0fb86f-5a62-11eb-bc37-0242c0a8e002	Thistle	Puisque je t'assure que ce n'était pas, comme il c...	3158.1	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee11044f-5a62-11eb-bc37-0242c0a8e002	Orchid	Souvent même, elle eut peur, et pour elle, au hasa...	9707.01	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee123913-5a62-11eb-bc37-0242c0a8e002	Crimson	Cologne qu'avait sa bru. Elle lui rappelait, en ma...	316.49	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee2133c8-5a62-11eb-bc37-0242c0a8e002	LightSalmon	Rodolphe s'installait là comme chez lui. M. et mad...	576.05	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee31304d-5a62-11eb-bc37-0242c0a8e002	LightGray	La figure un peu hâlées par le dessus de la boutiq...	8454.54	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee3352f8-5a62-11eb-bc37-0242c0a8e002	Orchid	Bovary père, brisant une chaise à dossier long; et...	6744.67	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee37e80f-5a62-11eb-bc37-0242c0a8e002	SeaShell	C'était Justin qui lui appartenait; et elle écouta...	3212.9	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee3b9b6c-5a62-11eb-bc37-0242c0a8e002	BurlyWood	Ceux qui commençaient à vieillir avaient l'air jeu...	2500.21	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee3e1196-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Yonville. Charles en fut indigné, se lança même da...	8047.23	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee426ddd-5a62-11eb-bc37-0242c0a8e002	PaleGoldenRod	Berthe une jeune femme tout irritée. Sa figure gra...	5282.65	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee4dfa6a-5a62-11eb-bc37-0242c0a8e002	Red	Lorsqu'il eut fait cent pas plus que la prose, et ...	2125.49	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee5fc458-5a62-11eb-bc37-0242c0a8e002	PapayaWhip	Il ne discutait pas ses idées; il acceptait tous s...	1492.2	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee66090d-5a62-11eb-bc37-0242c0a8e002	LightCyan	Cependant les tables, alentour, se dégarnissaient;...	6952.08	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee6c49a9-5a62-11eb-bc37-0242c0a8e002	MediumPurple	Il eut un grand écart. C'était une lutte. Il eut g...	5803.74	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee7a7bc9-5a62-11eb-bc37-0242c0a8e002	WhiteSmoke	Puis elle tourna la tête: Charles était en marche,...	7194.68	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee82f343-5a62-11eb-bc37-0242c0a8e002	MediumSeaGreen	Hivert attelait sans se dépêcher, et en chaussons,...	131.39	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee859021-5a62-11eb-bc37-0242c0a8e002	SlateBlue	Écoutez donc! il me semble que, jusqu'à présent, n...	6820.75	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee86be94-5a62-11eb-bc37-0242c0a8e002	PaleGoldenRod	Elle resta quelques minutes à tenir entre ses doig...	2152.1	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee890ae9-5a62-11eb-bc37-0242c0a8e002	DarkBlue	Le portrait de Rodolphe quand il fut décidé que le...	2480.92	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee8ec3ae-5a62-11eb-bc37-0242c0a8e002	MediumTurquoise	Les herbes aromatiques fumaient encore, et il y av...	6767.93	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+ee9dc244-5a62-11eb-bc37-0242c0a8e002	SaddleBrown	Ce fut donc une noce, où vinrent quarante-trois pe...	7875.46	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+eea53732-5a62-11eb-bc37-0242c0a8e002	Indigo 	Pendant les trois fermoirs de cuivre plaquèrent de...	6916.39	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+eeafcacb-5a62-11eb-bc37-0242c0a8e002	Gold	Le rayon lumineux qui montait sur une causeuse, où...	7605.27	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+eeb70a0f-5a62-11eb-bc37-0242c0a8e002	FireBrick	Maniant délicatement leurs belles reliures de sati...	7353.51	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+eebb60e4-5a62-11eb-bc37-0242c0a8e002	Sienna	Rodolphe, elle l'avait descendu tout au milieu de ...	7612.32	eb28035b-5a62-11eb-bc37-0242c0a8e002	Cinéma	
+
+
+La liste de tous les utilisateurs ayant effectué plus de dix commandes ;
+
+3WA/souleymanecoulibaly_mini_projetsql/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=users
+
+   Affichage des lignes 0 - 127 (total de 128, traitement en 0.0164 seconde(s).)
+
+
+SELECT U.*, COUNT(O.id) AS total_orders
+FROM users U
+JOIN orders O ON U.id = O.user_id
+GROUP BY U.id
+HAVING COUNT(O.id) > 10
+
+
+id	address_id	email	password	first_name	last_name	registration_date	birthdate	total_orders	
+cd6d6f97-5a62-11eb-bc37-0242c0a8e002	eb31e94b-5a62-11eb-bc37-0242c0a8e002	merle.andree@example.org	$argon2id$v=19$m=65536,t=4,p=1$phQ9OnraLEkYsw3JnUk...	Charles	Laporte	2020-05-28 16:06:07	1987-09-24 20:24:23	11	
+cd899d00-5a62-11eb-bc37-0242c0a8e002	eb327ca7-5a62-11eb-bc37-0242c0a8e002	dominique46@example.com	$argon2id$v=19$m=65536,t=4,p=1$KkXb5AyVzEhaNamXQg+...	Renée	Pascal	2013-08-15 23:36:48	1943-04-07 17:00:19	15	
+cdc18aaa-5a62-11eb-bc37-0242c0a8e002	eb33b1a2-5a62-11eb-bc37-0242c0a8e002	dumont.margaud@example.com	$argon2id$v=19$m=65536,t=4,p=1$EjkHxnbzsWyNeR7aWXj...	Alix	Gilles	2012-02-20 20:03:47	1967-09-13 04:25:31	17	
+cddc9fa2-5a62-11eb-bc37-0242c0a8e002	eb3445c3-5a62-11eb-bc37-0242c0a8e002	zmarques@example.com	$argon2id$v=19$m=65536,t=4,p=1$yDNm+YH1P91EJY7MJga...	Henri	Garcia	2019-09-26 16:33:44	1973-05-12 00:40:48	16	
+cdf79b63-5a62-11eb-bc37-0242c0a8e002	eb34aff7-5a62-11eb-bc37-0242c0a8e002	susan04@example.org	$argon2id$v=19$m=65536,t=4,p=1$O7JB96rQZC3I2wsVQ/q...	Michelle	Monnier	2015-03-06 04:10:37	1958-01-29 02:42:09	16	
+ce2c5494-5a62-11eb-bc37-0242c0a8e002	ebbcc599-5a62-11eb-bc37-0242c0a8e002	emmanuelle74@example.org	$argon2id$v=19$m=65536,t=4,p=1$rmQ1NNJ9QK0+CAej1i/...	Thibaut	Delattre	2020-07-17 10:20:33	1944-04-17 18:51:21	14	
+ce637c47-5a62-11eb-bc37-0242c0a8e002	ebbdd3f5-5a62-11eb-bc37-0242c0a8e002	guillaume.berger@example.net	$argon2id$v=19$m=65536,t=4,p=1$fLsSUhcqHfqmzd2+8Qt...	Arthur	Albert	2020-02-22 17:36:37	1958-06-03 22:26:54	18	
+ce990022-5a62-11eb-bc37-0242c0a8e002	ebbecd47-5a62-11eb-bc37-0242c0a8e002	monique.schmitt@example.org	$argon2id$v=19$m=65536,t=4,p=1$OJTZLX0MSItWnU4w3VH...	Laurent	Leroux	2018-03-25 16:36:14	1959-10-21 10:48:16	12	
+cef1287b-5a62-11eb-bc37-0242c0a8e002	ebc1a2f2-5a62-11eb-bc37-0242c0a8e002	wmarechal@example.com	$argon2id$v=19$m=65536,t=4,p=1$jcwgPAYNq7fHe5BDSy0...	Véronique	Denis	2020-12-01 19:05:04	1934-02-16 11:14:13	12	
+cf12ce8f-5a62-11eb-bc37-0242c0a8e002	ebc2082f-5a62-11eb-bc37-0242c0a8e002	philippine36@example.com	$argon2id$v=19$m=65536,t=4,p=1$FRzmXUTRFcgktbdn+Ua...	Christelle	Fernandes	2018-03-16 09:38:23	1989-11-27 14:22:54	12	
+cf349228-5a62-11eb-bc37-0242c0a8e002	ebc34981-5a62-11eb-bc37-0242c0a8e002	cmary@example.org	$argon2id$v=19$m=65536,t=4,p=1$XN1VjINFL8QmRhf5tA7...	Matthieu	Louis	2013-07-03 12:59:54	1993-10-22 16:22:50	16	
+cf52bc14-5a62-11eb-bc37-0242c0a8e002	ebc3a823-5a62-11eb-bc37-0242c0a8e002	hlebon@example.org	$argon2id$v=19$m=65536,t=4,p=1$WdjKPwqdvlzLtID4ex2...	Clémence	Lemaitre	2016-08-24 22:37:37	1974-01-24 22:07:27	18	
+cf785706-5a62-11eb-bc37-0242c0a8e002	ebc3fda3-5a62-11eb-bc37-0242c0a8e002	penelope.salmon@example.net	$argon2id$v=19$m=65536,t=4,p=1$USDDaqVFdfTchg05lo0...	Dominique	Chevallier	2016-10-19 17:33:47	1966-11-24 05:25:43	14	
+cfc0c883-5a62-11eb-bc37-0242c0a8e002	ebc4e459-5a62-11eb-bc37-0242c0a8e002	maurice.christine@example.net	$argon2id$v=19$m=65536,t=4,p=1$rryFhugpn6Nf8P3juBX...	Margot	Mary	2011-12-26 20:58:11	1936-06-22 22:40:21	16	
+cfe8aa6a-5a62-11eb-bc37-0242c0a8e002	ebc571ba-5a62-11eb-bc37-0242c0a8e002	anne.lefort@example.net	$argon2id$v=19$m=65536,t=4,p=1$A04dIXVKXBm/1UFVwlm...	Patricia	Berthelot	2017-10-25 04:59:27	1937-02-07 18:36:14	13	
+d065f200-5a62-11eb-bc37-0242c0a8e002	ebc8ae92-5a62-11eb-bc37-0242c0a8e002	langlois.ines@example.org	$argon2id$v=19$m=65536,t=4,p=1$4wDdVKjZZCUI8uAiclB...	Adrien	Blot	2014-06-28 16:56:02	1969-01-13 19:12:39	15	
+d08be4c2-5a62-11eb-bc37-0242c0a8e002	ebc90358-5a62-11eb-bc37-0242c0a8e002	xmerle@example.org	$argon2id$v=19$m=65536,t=4,p=1$xxNYT+j7JnF1irk1jEy...	Marine	Gaillard	2020-09-22 13:02:11	1994-02-26 00:48:07	13	
+d0d3fab6-5a62-11eb-bc37-0242c0a8e002	ebc9d67f-5a62-11eb-bc37-0242c0a8e002	augustin45@example.com	$argon2id$v=19$m=65536,t=4,p=1$64g3YOWWo2HlPQpFVR0...	Geneviève	Marty	2014-07-23 16:33:41	1982-12-15 03:11:32	11	
+d0fea219-5a62-11eb-bc37-0242c0a8e002	ebca6c9c-5a62-11eb-bc37-0242c0a8e002	bernadette61@example.org	$argon2id$v=19$m=65536,t=4,p=1$41oEvzvRYCgHUtGkfvf...	Suzanne	Begue	2015-07-22 23:57:20	1980-01-06 05:35:53	17	
+d12ef7b1-5a62-11eb-bc37-0242c0a8e002	ebcae30b-5a62-11eb-bc37-0242c0a8e002	claude91@example.com	$argon2id$v=19$m=65536,t=4,p=1$JQbNzMegqYt+whQEyva...	Emmanuel	Regnier	2014-09-10 03:22:02	1994-09-24 23:42:39	20	
+d14d2bc9-5a62-11eb-bc37-0242c0a8e002	ebcb4fc7-5a62-11eb-bc37-0242c0a8e002	georges05@example.com	$argon2id$v=19$m=65536,t=4,p=1$ljku2QjCrueuAabTa8+...	Suzanne	Prevost	2013-08-05 10:42:10	1939-06-25 07:05:18	19	
+d16b1734-5a62-11eb-bc37-0242c0a8e002	ebcb9ef8-5a62-11eb-bc37-0242c0a8e002	mschneider@example.net	$argon2id$v=19$m=65536,t=4,p=1$On1L1pGhkzKbXdkpjqW...	Capucine	Andre	2011-09-08 10:42:55	1961-02-03 21:20:38	15	
+d1dc7223-5a62-11eb-bc37-0242c0a8e002	ebcebe04-5a62-11eb-bc37-0242c0a8e002	loiseau.christophe@example.net	$argon2id$v=19$m=65536,t=4,p=1$YyLllmTYeaRbfpfe4Qb...	Clémence	Nicolas	2011-08-11 01:51:28	1998-10-17 17:00:08	11	
+d2161bd2-5a62-11eb-bc37-0242c0a8e002	ebcf9aab-5a62-11eb-bc37-0242c0a8e002	hbailly@example.org	$argon2id$v=19$m=65536,t=4,p=1$4D2CNVGWkfj7Q2UQP5a...	Astrid	Hubert	2012-12-12 15:10:53	1996-12-04 07:31:03	17	
+d26a1232-5a62-11eb-bc37-0242c0a8e002	ebd0f848-5a62-11eb-bc37-0242c0a8e002	pierre.dupre@example.org	$argon2id$v=19$m=65536,t=4,p=1$uIxQT46Q363XPyOq4zN...	Margot	Guibert	2012-08-15 04:02:36	1984-06-09 17:47:50	13	
+d28cabb5-5a62-11eb-bc37-0242c0a8e002	ebd26180-5a62-11eb-bc37-0242c0a8e002	dubois.theodore@example.com	$argon2id$v=19$m=65536,t=4,p=1$x94N2cYlMy+op77fwN8...	Frédéric	Leclercq	2016-01-14 07:18:15	1993-11-18 09:19:25	13	
+d2e19934-5a62-11eb-bc37-0242c0a8e002	ebd3bab8-5a62-11eb-bc37-0242c0a8e002	andre.legall@example.org	$argon2id$v=19$m=65536,t=4,p=1$fSPewJAx6fLdKCcM/XJ...	Andrée	Aubert	2016-08-26 11:35:26	1937-03-21 01:53:03	20	
+d2fe3a81-5a62-11eb-bc37-0242c0a8e002	ebd543f6-5a62-11eb-bc37-0242c0a8e002	audrey62@example.net	$argon2id$v=19$m=65536,t=4,p=1$VbXhu0uZq/kdFOXAyWj...	Augustin	Berthelot	2018-04-20 21:28:46	1961-04-19 23:14:03	18	
+d3191faa-5a62-11eb-bc37-0242c0a8e002	ebd5d056-5a62-11eb-bc37-0242c0a8e002	boulay.josette@example.com	$argon2id$v=19$m=65536,t=4,p=1$mMFd2HiDs9PW1yxM52R...	Louis	Gauthier	2013-10-01 15:22:04	1977-07-05 10:00:14	19	
+d335aabf-5a62-11eb-bc37-0242c0a8e002	ebd654da-5a62-11eb-bc37-0242c0a8e002	tanguy.nathalie@example.org	$argon2id$v=19$m=65536,t=4,p=1$vRo7rgRPstWDTW4fOe4...	Julie	Jacob	2020-12-25 10:19:31	1946-12-24 04:25:33	13	
+d356b2ee-5a62-11eb-bc37-0242c0a8e002	ebd6dafc-5a62-11eb-bc37-0242c0a8e002	david52@example.com	$argon2id$v=19$m=65536,t=4,p=1$w2MofA+BFwVet30PfkL...	Yves	Le Gall	2019-07-04 20:59:10	1964-11-19 07:52:58	18	
+d3b052f7-5a62-11eb-bc37-0242c0a8e002	ebd83b90-5a62-11eb-bc37-0242c0a8e002	alain78@example.com	$argon2id$v=19$m=65536,t=4,p=1$GlTfU54LsSo5leh1UUa...	Eugène	Francois	2015-12-28 10:05:47	1996-11-01 11:37:27	13	
+d3ce178f-5a62-11eb-bc37-0242c0a8e002	ebd8bf11-5a62-11eb-bc37-0242c0a8e002	alebreton@example.net	$argon2id$v=19$m=65536,t=4,p=1$D3SOCp6hvuwyk917pIA...	Michelle	Legros	2018-08-21 15:54:52	1967-07-06 14:53:10	18	
+d4052d3e-5a62-11eb-bc37-0242c0a8e002	ebd9974f-5a62-11eb-bc37-0242c0a8e002	weiss.marcelle@example.net	$argon2id$v=19$m=65536,t=4,p=1$Kok3+SPVVLfz44d8G51...	Alexandrie	Laine	2019-06-09 23:27:44	1976-09-05 22:52:31	18	
+d43d1a2f-5a62-11eb-bc37-0242c0a8e002	ebdbaaf5-5a62-11eb-bc37-0242c0a8e002	hortense33@example.net	$argon2id$v=19$m=65536,t=4,p=1$NRdbzOnWkClOHugoOI9...	Michelle	Leduc	2016-03-14 13:28:52	1991-12-15 21:41:24	14	
+d4577826-5a62-11eb-bc37-0242c0a8e002	ebdc0cdd-5a62-11eb-bc37-0242c0a8e002	ldelmas@example.org	$argon2id$v=19$m=65536,t=4,p=1$bIbjUmbDXv2I+egDSSj...	Aimé	Guyot	2017-04-03 22:43:12	1996-07-25 17:13:38	15	
+d4c37d0e-5a62-11eb-bc37-0242c0a8e002	ebdddbd1-5a62-11eb-bc37-0242c0a8e002	theodore.boyer@example.com	$argon2id$v=19$m=65536,t=4,p=1$NPD6cBPjIyh5iTPiTtZ...	Marc	Verdier	2012-07-24 08:01:42	1952-06-20 14:08:54	13	
+d4de14de-5a62-11eb-bc37-0242c0a8e002	ebde4739-5a62-11eb-bc37-0242c0a8e002	rousseau.madeleine@example.org	$argon2id$v=19$m=65536,t=4,p=1$wE8Efzm6dbZtZww1kDk...	Yves	Boyer	2017-02-03 05:08:18	1994-03-14 11:08:45	12	
+d4f83bd4-5a62-11eb-bc37-0242c0a8e002	ebdec86c-5a62-11eb-bc37-0242c0a8e002	auger.xavier@example.com	$argon2id$v=19$m=65536,t=4,p=1$Alr8jooEfpDIMYcGd6/...	Alexandria	Marion	2018-10-19 00:13:47	1943-09-03 03:34:09	11	
+d52d6dad-5a62-11eb-bc37-0242c0a8e002	ebdf8def-5a62-11eb-bc37-0242c0a8e002	bertrand.dias@example.net	$argon2id$v=19$m=65536,t=4,p=1$yVYQ3FX9078TVPXiHoo...	Nicole	Picard	2018-03-10 11:56:53	1969-01-16 15:36:11	20	
+d549d0d2-5a62-11eb-bc37-0242c0a8e002	ebe003d5-5a62-11eb-bc37-0242c0a8e002	helene.reynaud@example.com	$argon2id$v=19$m=65536,t=4,p=1$2SZxi+VgtEOydYjfvj4...	Bertrand	Sanchez	2011-09-12 01:33:33	1972-09-04 22:39:52	16	
+d58098ed-5a62-11eb-bc37-0242c0a8e002	ebe193f6-5a62-11eb-bc37-0242c0a8e002	colette.girard@example.org	$argon2id$v=19$m=65536,t=4,p=1$AZW0qny+M92Uo0DHhkf...	Lucie	Berthelot	2016-11-05 18:15:17	2000-07-28 08:20:34	16	
+d59bd778-5a62-11eb-bc37-0242c0a8e002	ebe1e359-5a62-11eb-bc37-0242c0a8e002	gerard88@example.org	$argon2id$v=19$m=65536,t=4,p=1$nMQPfjAKV+7F4pXZGLL...	Étienne	Marques	2011-01-30 12:23:47	1956-11-27 13:12:04	17	
+d5b6667c-5a62-11eb-bc37-0242c0a8e002	ebe236c4-5a62-11eb-bc37-0242c0a8e002	aimee.dupont@example.com	$argon2id$v=19$m=65536,t=4,p=1$mZ9YeFW00CsEYxCaor5...	Bernard	Gregoire	2013-08-17 13:40:56	1974-04-14 05:36:40	12	
+d5d3d80c-5a62-11eb-bc37-0242c0a8e002	ebe28a7f-5a62-11eb-bc37-0242c0a8e002	marcel33@example.org	$argon2id$v=19$m=65536,t=4,p=1$U+PJMp2I1PJSiNfhlQn...	Alexandria	Dufour	2016-12-10 18:15:31	1956-09-13 23:43:08	17	
+d61013fb-5a62-11eb-bc37-0242c0a8e002	ebe327b9-5a62-11eb-bc37-0242c0a8e002	isabelle.richard@example.org	$argon2id$v=19$m=65536,t=4,p=1$F/0k1WOMvbw7fKzDZGD...	Valérie	Klein	2013-06-24 10:45:02	1973-12-26 12:06:22	18	
+d62b1554-5a62-11eb-bc37-0242c0a8e002	ebe37dcd-5a62-11eb-bc37-0242c0a8e002	ollivier.aurelie@example.net	$argon2id$v=19$m=65536,t=4,p=1$iYbw93T93sDp10QX52L...	Margaux	Boyer	2018-06-06 12:15:39	1988-07-17 01:30:42	16	
+d71d14ef-5a62-11eb-bc37-0242c0a8e002	ebe61afa-5a62-11eb-bc37-0242c0a8e002	capucine.petit@example.com	$argon2id$v=19$m=65536,t=4,p=1$me1A6Hr38TiRse+KmFr...	Mathilde	Collin	2020-07-16 11:51:12	1940-09-16 15:19:30	20	
+d7405d71-5a62-11eb-bc37-0242c0a8e002	ebe66daa-5a62-11eb-bc37-0242c0a8e002	wguillaume@example.net	$argon2id$v=19$m=65536,t=4,p=1$7mcnaqTiE4xjujo4/P6...	Dominique	Berthelot	2014-07-08 16:06:36	1951-10-26 08:42:27	12	
+d79deeec-5a62-11eb-bc37-0242c0a8e002	ebe81bba-5a62-11eb-bc37-0242c0a8e002	penelope.charpentier@example.org	$argon2id$v=19$m=65536,t=4,p=1$Ird2ZTd7SWqM2aYlgJQ...	Manon	Maurice	2015-10-13 05:44:43	2000-06-24 11:13:02	12	
+d7cfd828-5a62-11eb-bc37-0242c0a8e002	ebe86cc9-5a62-11eb-bc37-0242c0a8e002	andree.peron@example.com	$argon2id$v=19$m=65536,t=4,p=1$97Pm8PzN/hHjoGHjVXv...	Corinne	Coste	2015-07-06 02:21:17	1970-12-16 03:07:27	12	
+d810fe5f-5a62-11eb-bc37-0242c0a8e002	ebe90e27-5a62-11eb-bc37-0242c0a8e002	caroline.joubert@example.net	$argon2id$v=19$m=65536,t=4,p=1$bG6i5Y9Xvcf3MEzPHcG...	Sophie	Blot	2013-03-15 23:14:50	2000-01-08 04:39:48	14	
+d84b1f0e-5a62-11eb-bc37-0242c0a8e002	ebe99b48-5a62-11eb-bc37-0242c0a8e002	rene92@example.net	$argon2id$v=19$m=65536,t=4,p=1$W32rTf2yl+9CznYjvex...	Anouk	Martel	2014-06-10 02:53:19	1975-09-17 15:12:04	12	
+d868619c-5a62-11eb-bc37-0242c0a8e002	ebe9e2da-5a62-11eb-bc37-0242c0a8e002	gabrielle43@example.net	$argon2id$v=19$m=65536,t=4,p=1$iPOiRuDSv40RqnYhaW5...	Michèle	Remy	2016-04-20 23:41:37	1956-05-01 18:33:12	11	
+d88517c9-5a62-11eb-bc37-0242c0a8e002	ebea2eec-5a62-11eb-bc37-0242c0a8e002	robert97@example.net	$argon2id$v=19$m=65536,t=4,p=1$2sY5Gc/F8vTmfq5FtXN...	Alice	Peron	2012-08-12 03:47:24	1937-12-08 18:10:50	19	
+d8a3b684-5a62-11eb-bc37-0242c0a8e002	ebea8256-5a62-11eb-bc37-0242c0a8e002	anais.lopes@example.org	$argon2id$v=19$m=65536,t=4,p=1$GbteQDVhj3rZ6i33VJt...	Bernadette	Diaz	2015-02-06 11:25:40	1946-10-18 02:56:49	14	
+d8ff0f4d-5a62-11eb-bc37-0242c0a8e002	ebec2dd4-5a62-11eb-bc37-0242c0a8e002	aubry.stephane@example.org	$argon2id$v=19$m=65536,t=4,p=1$SMALYiHKpzveIshqiHq...	Tristan	Gaudin	2015-04-21 04:52:12	1955-11-13 22:07:41	19	
+d91ce08a-5a62-11eb-bc37-0242c0a8e002	ebec7939-5a62-11eb-bc37-0242c0a8e002	mcarlier@example.net	$argon2id$v=19$m=65536,t=4,p=1$hx2EKRpKBMQzOcq2A7n...	Sébastien	Barre	2018-04-25 18:40:04	1931-04-19 05:07:02	19	
+d972205c-5a62-11eb-bc37-0242c0a8e002	ebed737a-5a62-11eb-bc37-0242c0a8e002	nathalie16@example.net	$argon2id$v=19$m=65536,t=4,p=1$EA+tAj/T91Oiw24YRmd...	Margot	Begue	2015-01-03 11:34:36	1963-03-31 00:40:54	15	
+d9d45f9f-5a62-11eb-bc37-0242c0a8e002	ebef41cb-5a62-11eb-bc37-0242c0a8e002	michel.richard@example.org	$argon2id$v=19$m=65536,t=4,p=1$t9ymKXSp9iDpfmCTSEg...	Franck	Bernier	2011-02-08 14:51:10	1995-09-30 22:26:56	18	
+d9f18c89-5a62-11eb-bc37-0242c0a8e002	ebef9434-5a62-11eb-bc37-0242c0a8e002	guillot.benoit@example.com	$argon2id$v=19$m=65536,t=4,p=1$ctGfvgePS2LgPe+KbaY...	Louis	Monnier	2015-04-30 20:02:38	1952-08-23 11:19:36	11	
+da324601-5a62-11eb-bc37-0242c0a8e002	ebf03107-5a62-11eb-bc37-0242c0a8e002	camille50@example.com	$argon2id$v=19$m=65536,t=4,p=1$FnF0YbuhxbpiGZv4Rdz...	Amélie	Camus	2012-12-14 17:02:28	1997-12-07 06:41:31	17	
+da61d9c8-5a62-11eb-bc37-0242c0a8e002	ebf087a9-5a62-11eb-bc37-0242c0a8e002	francois44@example.net	$argon2id$v=19$m=65536,t=4,p=1$0PBC/0lVlRF8JOz0kXS...	Théophile	Gauthier	2011-11-30 15:21:37	1979-11-27 23:42:38	16	
+da909dec-5a62-11eb-bc37-0242c0a8e002	ebf19ca7-5a62-11eb-bc37-0242c0a8e002	margaux.chauvin@example.com	$argon2id$v=19$m=65536,t=4,p=1$IUyB7BjXNLnBX8xwF19...	Antoine	Hubert	2012-03-27 11:40:34	1967-02-22 10:43:56	19	
+dae6fc5f-5a62-11eb-bc37-0242c0a8e002	ebf23b29-5a62-11eb-bc37-0242c0a8e002	margot.marion@example.net	$argon2id$v=19$m=65536,t=4,p=1$h5qBny1L6oC3xEGJocJ...	Margot	Leroy	2015-08-10 06:08:24	1972-06-23 07:25:22	14	
+db14e9aa-5a62-11eb-bc37-0242c0a8e002	ebf28a09-5a62-11eb-bc37-0242c0a8e002	benjamin.carpentier@example.net	$argon2id$v=19$m=65536,t=4,p=1$SS6Hl5CySe/IL6Qqb+S...	Claude	Dufour	2013-03-08 18:34:02	1995-12-17 09:39:16	14	
+db7b0389-5a62-11eb-bc37-0242c0a8e002	ebf32b39-5a62-11eb-bc37-0242c0a8e002	jacqueline.bigot@example.org	$argon2id$v=19$m=65536,t=4,p=1$/xK8P6zFeqc4uS8BmDo...	Alice	Blot	2018-01-15 21:06:42	1959-08-11 03:45:06	12	
+dc0020f7-5a62-11eb-bc37-0242c0a8e002	ebf42c27-5a62-11eb-bc37-0242c0a8e002	antoine.collin@example.org	$argon2id$v=19$m=65536,t=4,p=1$yEddw89vuncppVLLRDd...	Rémy	Gaillard	2013-10-27 20:49:56	1979-06-04 16:26:47	20	
+dca570d6-5a62-11eb-bc37-0242c0a8e002	ebf58304-5a62-11eb-bc37-0242c0a8e002	agnes.dias@example.net	$argon2id$v=19$m=65536,t=4,p=1$NGnD7LHavSMSNDBPclt...	Christophe	Blin	2019-05-08 18:52:01	1954-12-20 15:25:13	15	
+dcdb8061-5a62-11eb-bc37-0242c0a8e002	ebf5d6b5-5a62-11eb-bc37-0242c0a8e002	philippe.seguin@example.org	$argon2id$v=19$m=65536,t=4,p=1$a05YEyDWBqm7ORpZ6+M...	Christelle	Dias	2015-11-12 17:30:21	1977-09-21 20:30:55	19	
+dd7f9509-5a62-11eb-bc37-0242c0a8e002	ebf740a1-5a62-11eb-bc37-0242c0a8e002	vincent.breton@example.org	$argon2id$v=19$m=65536,t=4,p=1$Bv0zLvuzCosz8Za+BNb...	Marcel	Muller	2015-07-01 08:29:50	1934-12-24 19:45:27	20	
+ddaf3534-5a62-11eb-bc37-0242c0a8e002	ebf7a4af-5a62-11eb-bc37-0242c0a8e002	alfred.giraud@example.com	$argon2id$v=19$m=65536,t=4,p=1$oMuglxfYW+fDz9YkQuy...	Louis	Olivier	2015-05-01 13:50:56	1946-08-05 18:12:40	18	
+dddd3764-5a62-11eb-bc37-0242c0a8e002	ebf82112-5a62-11eb-bc37-0242c0a8e002	christine13@example.net	$argon2id$v=19$m=65536,t=4,p=1$uxlYECoi0g66esLjhFl...	Dominique	Lemaitre	2015-10-28 20:33:44	1950-09-06 05:28:36	12	
+de021e00-5a62-11eb-bc37-0242c0a8e002	ebf8769e-5a62-11eb-bc37-0242c0a8e002	mdelmas@example.org	$argon2id$v=19$m=65536,t=4,p=1$QQYlTs+l5wM5OrqDt6T...	Guillaume	Marty	2017-05-06 15:51:02	1969-05-08 14:02:14	11	
+de2d13d0-5a62-11eb-bc37-0242c0a8e002	ebf8d894-5a62-11eb-bc37-0242c0a8e002	eric21@example.com	$argon2id$v=19$m=65536,t=4,p=1$tPwwF6qCTO9iLByoBRA...	Maurice	Maury	2018-12-25 16:54:07	1931-08-20 07:06:03	15	
+ded97b16-5a62-11eb-bc37-0242c0a8e002	ebfa9abc-5a62-11eb-bc37-0242c0a8e002	vlombard@example.org	$argon2id$v=19$m=65536,t=4,p=1$v4CT16N1/qXWA5/sqDi...	Marthe	Techer	2014-04-24 17:54:19	2000-05-08 23:48:04	18	
+df2c1841-5a62-11eb-bc37-0242c0a8e002	ebfc6fe1-5a62-11eb-bc37-0242c0a8e002	marguerite08@example.com	$argon2id$v=19$m=65536,t=4,p=1$vQFWXfqfvj0G0peSWT2...	Susan	Buisson	2016-09-11 00:41:37	1939-11-21 13:22:28	15	
+df833c9c-5a62-11eb-bc37-0242c0a8e002	ebfd5e44-5a62-11eb-bc37-0242c0a8e002	launay.noel@example.com	$argon2id$v=19$m=65536,t=4,p=1$DW1AVRiz490x2afQUrq...	Alexandria	Riou	2012-07-11 04:20:15	1972-11-20 03:28:27	16	
+dfb349ea-5a62-11eb-bc37-0242c0a8e002	ebfdaead-5a62-11eb-bc37-0242c0a8e002	wleblanc@example.net	$argon2id$v=19$m=65536,t=4,p=1$YGreUTpRX/bS6LYJMEe...	Charlotte	Barre	2016-04-24 18:43:46	1959-09-27 17:57:30	11	
+e02a6131-5a62-11eb-bc37-0242c0a8e002	ec00e585-5a62-11eb-bc37-0242c0a8e002	lombard.vincent@example.net	$argon2id$v=19$m=65536,t=4,p=1$4YRNqjfcKVUOC2rga2w...	Léon	Blin	2014-08-24 02:04:15	1973-06-16 12:16:05	20	
+e0615e0e-5a62-11eb-bc37-0242c0a8e002	ec01b18f-5a62-11eb-bc37-0242c0a8e002	graymond@example.org	$argon2id$v=19$m=65536,t=4,p=1$69cW9fqmnGc7wWk2KrU...	Victor	Richard	2016-03-12 01:09:31	1955-12-11 03:22:25	12	
+e0bb04bf-5a62-11eb-bc37-0242c0a8e002	ec026b10-5a62-11eb-bc37-0242c0a8e002	diane.petit@example.org	$argon2id$v=19$m=65536,t=4,p=1$ivi12uaJxDUrth62t0y...	Emmanuelle	Renard	2019-02-01 19:55:39	1966-08-14 07:06:57	12	
+e1400758-5a62-11eb-bc37-0242c0a8e002	ec039344-5a62-11eb-bc37-0242c0a8e002	hgaillard@example.net	$argon2id$v=19$m=65536,t=4,p=1$1ZyY15AJxmH7VfDYOm5...	Alfred	Perez	2020-09-04 09:13:42	1991-03-17 04:09:42	11	
+e1b35128-5a62-11eb-bc37-0242c0a8e002	ec05a5f1-5a62-11eb-bc37-0242c0a8e002	elodie.gauthier@example.com	$argon2id$v=19$m=65536,t=4,p=1$INCSF1KNcApeecWFHs+...	Daniel	Boutin	2014-12-13 13:47:25	1939-01-16 00:54:24	14	
+e1d36b49-5a62-11eb-bc37-0242c0a8e002	ec05f880-5a62-11eb-bc37-0242c0a8e002	riou.etienne@example.org	$argon2id$v=19$m=65536,t=4,p=1$iwMQIQZGHNq3QsEoiSW...	Marguerite	Nicolas	2015-03-07 08:44:34	1931-03-23 23:20:08	16	
+e2868c53-5a62-11eb-bc37-0242c0a8e002	ec0a56da-5a62-11eb-bc37-0242c0a8e002	marguerite.marin@example.org	$argon2id$v=19$m=65536,t=4,p=1$hsjIncHH4nM25tBou2k...	Gabrielle	Le Goff	2011-01-20 01:52:58	1943-09-18 13:58:32	18	
+e2cacff0-5a62-11eb-bc37-0242c0a8e002	ec0d0593-5a62-11eb-bc37-0242c0a8e002	andree63@example.org	$argon2id$v=19$m=65536,t=4,p=1$4OERQrjRZE86QWJlj7S...	André	Payet	2014-09-09 01:52:12	1948-07-15 03:46:37	19	
+e318d4c5-5a62-11eb-bc37-0242c0a8e002	ec0dcce4-5a62-11eb-bc37-0242c0a8e002	zacharie66@example.org	$argon2id$v=19$m=65536,t=4,p=1$5AFH+zF9w88ZlF8asoM...	Laetitia	Descamps	2014-05-01 15:02:26	1942-08-29 00:49:47	12	
+e3339f5a-5a62-11eb-bc37-0242c0a8e002	ec0e36e5-5a62-11eb-bc37-0242c0a8e002	yves.cordier@example.org	$argon2id$v=19$m=65536,t=4,p=1$k1YhEcV0v0roaUKFO+M...	Paulette	Marie	2013-11-23 06:21:02	1997-09-13 03:25:10	13	
+e34f24b5-5a62-11eb-bc37-0242c0a8e002	ec0e8531-5a62-11eb-bc37-0242c0a8e002	bdias@example.net	$argon2id$v=19$m=65536,t=4,p=1$CqRVMi6d1WRBAASH7Bu...	Margot	Lemaire	2019-03-10 13:11:40	1991-06-23 17:15:06	17	
+e38beea0-5a62-11eb-bc37-0242c0a8e002	ec0f43f2-5a62-11eb-bc37-0242c0a8e002	fbarbier@example.com	$argon2id$v=19$m=65536,t=4,p=1$RB4yxcQovsKpjxn0yiF...	Rémy	Louis	2013-05-03 08:43:38	1936-05-17 20:19:35	17	
+e3a8a529-5a62-11eb-bc37-0242c0a8e002	ec0f9f93-5a62-11eb-bc37-0242c0a8e002	sroussel@example.com	$argon2id$v=19$m=65536,t=4,p=1$xb2EPhr1HW/bZBEgM/q...	Valentine	Marchal	2016-04-30 13:24:03	1984-12-01 22:30:34	11	
+e3e0b13e-5a62-11eb-bc37-0242c0a8e002	ec103ef3-5a62-11eb-bc37-0242c0a8e002	alexandre.boulanger@example.org	$argon2id$v=19$m=65536,t=4,p=1$CuD1XwLY5da/AuyvqrC...	Zacharie	Chretien	2013-11-05 02:31:01	1983-04-04 15:32:56	12	
+e3ff3559-5a62-11eb-bc37-0242c0a8e002	ec10962a-5a62-11eb-bc37-0242c0a8e002	ylouis@example.org	$argon2id$v=19$m=65536,t=4,p=1$B3qjeFDi6ZtXBthN2sZ...	Valérie	Durand	2013-03-25 08:04:52	1974-04-07 02:16:11	14	
+e41f1904-5a62-11eb-bc37-0242c0a8e002	ec11c6d2-5a62-11eb-bc37-0242c0a8e002	yberthelot@example.org	$argon2id$v=19$m=65536,t=4,p=1$XhuN4nlYr6+gOlK3nKF...	Daniel	De Oliveira	2011-09-22 11:26:59	1992-09-18 06:48:24	11	
+e44498fb-5a62-11eb-bc37-0242c0a8e002	ec12131e-5a62-11eb-bc37-0242c0a8e002	ndelaunay@example.net	$argon2id$v=19$m=65536,t=4,p=1$Fl0x2BrP78bQqkpHe6+...	Frédérique	Andre	2020-04-16 03:05:07	1935-03-27 09:33:15	11	
+e4902333-5a62-11eb-bc37-0242c0a8e002	ec136f61-5a62-11eb-bc37-0242c0a8e002	constance73@example.org	$argon2id$v=19$m=65536,t=4,p=1$yH2U/lFDWaHyymY9U/5...	Bernard	Girard	2019-07-25 22:40:17	1990-03-26 04:17:26	12	
+e4af1613-5a62-11eb-bc37-0242c0a8e002	ec13b7b4-5a62-11eb-bc37-0242c0a8e002	kguichard@example.net	$argon2id$v=19$m=65536,t=4,p=1$NmLUV866ObbsIAS1FQC...	Colette	Labbe	2017-10-22 05:43:49	1944-11-29 06:44:50	18	
+e4e99081-5a62-11eb-bc37-0242c0a8e002	ec148359-5a62-11eb-bc37-0242c0a8e002	suzanne.fouquet@example.com	$argon2id$v=19$m=65536,t=4,p=1$yNYUhBqIyy2c16Ql8Re...	Maurice	Barbier	2016-04-03 10:39:17	1956-11-06 17:38:28	12	
+e5211ccf-5a62-11eb-bc37-0242c0a8e002	ec153d77-5a62-11eb-bc37-0242c0a8e002	griou@example.net	$argon2id$v=19$m=65536,t=4,p=1$l9a19Wp7p9ex7ONete/...	Paul	Vincent	2014-08-09 09:13:41	1940-11-18 16:29:00	16	
+e53caf4a-5a62-11eb-bc37-0242c0a8e002	ec16922b-5a62-11eb-bc37-0242c0a8e002	bonneau.astrid@example.com	$argon2id$v=19$m=65536,t=4,p=1$bPp7aX/AmHO8IsLB35s...	Lorraine	Humbert	2012-08-04 00:48:41	1944-12-28 18:03:45	19	
+e55fd4fa-5a62-11eb-bc37-0242c0a8e002	ec16eb26-5a62-11eb-bc37-0242c0a8e002	ocharpentier@example.net	$argon2id$v=19$m=65536,t=4,p=1$4OADcjxBkRdfgDIIBka...	Georges	Boutin	2012-11-13 03:13:24	1960-05-08 14:57:26	15	
+e5a4d8da-5a62-11eb-bc37-0242c0a8e002	ec19069f-5a62-11eb-bc37-0242c0a8e002	fischer.thierry@example.com	$argon2id$v=19$m=65536,t=4,p=1$ErW8xP1YIqFVm9oHUrw...	Célina	Parent	2011-06-13 17:26:53	1996-07-16 03:59:00	14	
+e62c1581-5a62-11eb-bc37-0242c0a8e002	ec1afda9-5a62-11eb-bc37-0242c0a8e002	nguyen.charles@example.org	$argon2id$v=19$m=65536,t=4,p=1$zat8xm03pOLg3HkrSfm...	Georges	Leduc	2018-12-24 03:11:37	1991-03-18 14:24:30	18	
+e647c22f-5a62-11eb-bc37-0242c0a8e002	ec1b4415-5a62-11eb-bc37-0242c0a8e002	delmas.sylvie@example.com	$argon2id$v=19$m=65536,t=4,p=1$V1U9LYEX2jQF+Nno2yY...	Claudine	Legrand	2019-06-16 17:17:45	1969-05-17 17:59:09	11	
+e6849a6e-5a62-11eb-bc37-0242c0a8e002	ec1bf40b-5a62-11eb-bc37-0242c0a8e002	diane.boulanger@example.org	$argon2id$v=19$m=65536,t=4,p=1$/0mDeT4iKYWn3emH52r...	Manon	Besnard	2015-09-25 11:28:50	1974-01-03 22:39:41	20	
+e6a06fb9-5a62-11eb-bc37-0242c0a8e002	ec1ceb9c-5a62-11eb-bc37-0242c0a8e002	didier.lucas@example.org	$argon2id$v=19$m=65536,t=4,p=1$HhmlvyHI1V3HpY0c+zm...	Luce	Chevallier	2019-06-21 19:11:34	1976-09-03 16:43:37	14	
+e6da2bdf-5a62-11eb-bc37-0242c0a8e002	ec1d92fa-5a62-11eb-bc37-0242c0a8e002	anouk67@example.com	$argon2id$v=19$m=65536,t=4,p=1$tMntwBjGx0owohLpkc1...	Étienne	Ollivier	2015-06-17 17:18:20	1997-01-05 15:40:53	13	
+e6f71a21-5a62-11eb-bc37-0242c0a8e002	ec1dde99-5a62-11eb-bc37-0242c0a8e002	dacosta.arthur@example.net	$argon2id$v=19$m=65536,t=4,p=1$6/NjMBUPu0JRlGfTU7Y...	Josette	Le Goff	2017-08-21 01:22:52	1989-06-04 01:31:08	11	
+e738cdca-5a62-11eb-bc37-0242c0a8e002	ec1e7f85-5a62-11eb-bc37-0242c0a8e002	gautier.eleonore@example.net	$argon2id$v=19$m=65536,t=4,p=1$NX2x/b/ly23o6Djxbnx...	Zoé	Thomas	2018-11-13 00:11:16	1992-10-18 16:45:59	12	
+e7578690-5a62-11eb-bc37-0242c0a8e002	ec1eccef-5a62-11eb-bc37-0242c0a8e002	adele.bertin@example.org	$argon2id$v=19$m=65536,t=4,p=1$CbEiUMoFuBJ/6Kt1GpR...	Colette	Martel	2019-09-23 19:35:40	1954-06-13 04:18:45	11	
+e7734e42-5a62-11eb-bc37-0242c0a8e002	ec1f2031-5a62-11eb-bc37-0242c0a8e002	sabine38@example.net	$argon2id$v=19$m=65536,t=4,p=1$BGHMP52bgw812QJaA8d...	Michelle	Labbe	2012-08-19 14:56:57	1983-08-21 17:56:41	16	
+e78f41bc-5a62-11eb-bc37-0242c0a8e002	ec20766f-5a62-11eb-bc37-0242c0a8e002	ctecher@example.net	$argon2id$v=19$m=65536,t=4,p=1$kSHYDVGmpRscdPFo9DM...	Laure	Laporte	2012-12-11 06:26:54	1937-05-09 07:23:24	18	
+e7ab5b6d-5a62-11eb-bc37-0242c0a8e002	ec20dd1a-5a62-11eb-bc37-0242c0a8e002	celina.chauvet@example.net	$argon2id$v=19$m=65536,t=4,p=1$Xxn9mR1ILjMKKAtVdka...	Adèle	Samson	2011-10-19 18:38:29	1966-06-29 17:33:54	17	
+e7c9b737-5a62-11eb-bc37-0242c0a8e002	ec21de28-5a62-11eb-bc37-0242c0a8e002	simone23@example.org	$argon2id$v=19$m=65536,t=4,p=1$5lMCf9y2pb1YikKa7Px...	Thérèse	Lebrun	2014-11-18 22:10:27	1962-04-10 00:24:31	14	
+e7e7ade2-5a62-11eb-bc37-0242c0a8e002	ec222c3f-5a62-11eb-bc37-0242c0a8e002	margaux28@example.com	$argon2id$v=19$m=65536,t=4,p=1$+yaynz/b/agqY4xEzo6...	Paul	Alves	2019-01-14 09:21:20	1967-06-20 10:57:36	18	
+e8064b37-5a62-11eb-bc37-0242c0a8e002	ec227464-5a62-11eb-bc37-0242c0a8e002	barbe.amelie@example.net	$argon2id$v=19$m=65536,t=4,p=1$8WUL1HkH+rrCzSt/ZVW...	Benoît	Cordier	2016-03-13 18:54:13	1975-12-12 03:01:06	19	
+e823dd94-5a62-11eb-bc37-0242c0a8e002	ec22bb43-5a62-11eb-bc37-0242c0a8e002	huet.anne@example.org	$argon2id$v=19$m=65536,t=4,p=1$tmOmsENwzauPvQOacWX...	Aurélie	Pons	2016-01-12 09:32:42	1933-12-03 08:26:40	19	
+e861fbce-5a62-11eb-bc37-0242c0a8e002	ec235a64-5a62-11eb-bc37-0242c0a8e002	francoise14@example.net	$argon2id$v=19$m=65536,t=4,p=1$LnL1O71gC6sPaurguyw...	Isaac	Michel	2011-06-24 23:14:20	1942-10-07 18:39:52	14	
+e891e09d-5a62-11eb-bc37-0242c0a8e002	ec23a766-5a62-11eb-bc37-0242c0a8e002	sebastien.vidal@example.com	$argon2id$v=19$m=65536,t=4,p=1$6LUQZeXk+BZncMCBepY...	Jean	Michaud	2018-01-26 10:34:39	1935-04-26 21:32:12	11	
+e8b29eda-5a62-11eb-bc37-0242c0a8e002	ec23f5d9-5a62-11eb-bc37-0242c0a8e002	theodore.lemaire@example.net	$argon2id$v=19$m=65536,t=4,p=1$IVmukvZbwnHDhvXhcnf...	Antoinette	Blot	2018-11-12 14:38:03	1966-08-13 14:24:56	20	
+e8cedbbf-5a62-11eb-bc37-0242c0a8e002	ec243f69-5a62-11eb-bc37-0242c0a8e002	jean43@example.com	$argon2id$v=19$m=65536,t=4,p=1$9tOtr5XKehRMvupyRxc...	Roland	Gomez	2012-12-04 14:13:17	1938-06-17 22:20:22	13	
+e8e93fd2-5a62-11eb-bc37-0242c0a8e002	ec248c83-5a62-11eb-bc37-0242c0a8e002	paulette.boyer@example.org	$argon2id$v=19$m=65536,t=4,p=1$xh6Uaa9XCEu1PFhYy5h...	Jeannine	Barbier	2016-08-14 06:03:49	1954-12-19 23:48:46	11	
+e923e6f2-5a62-11eb-bc37-0242c0a8e002	ec25ec70-5a62-11eb-bc37-0242c0a8e002	jeannine07@example.org	$argon2id$v=19$m=65536,t=4,p=1$zvHe/mS+cDkTgr5gYZM...	Laurent	Seguin	2016-08-06 09:08:37	1938-07-29 02:49:21	12	
+e99092f3-5a62-11eb-bc37-0242c0a8e002	ec278d50-5a62-11eb-bc37-0242c0a8e002	zdijoux@example.org	$argon2id$v=19$m=65536,t=4,p=1$PpkUPvS0F4hcGkmiOTB...	Caroline	Coulon	2011-12-18 20:12:20	1976-07-04 03:19:36	11	
+ea000ef8-5a62-11eb-bc37-0242c0a8e002	ec293ec9-5a62-11eb-bc37-0242c0a8e002	elemaire@example.net	$argon2id$v=19$m=65536,t=4,p=1$7jv/cVl0DRjvbx7RgnD...	Stéphane	Hubert	2018-10-18 05:26:25	1981-11-05 06:24:00	18	
+ea3d337d-5a62-11eb-bc37-0242c0a8e002	ec29d1a7-5a62-11eb-bc37-0242c0a8e002	carlier.lucas@example.org	$argon2id$v=19$m=65536,t=4,p=1$pJR4foS0Z551MQjpDdJ...	Nathalie	Gilles	2015-12-25 20:31:08	1961-09-02 21:48:19	18	
+ea785a39-5a62-11eb-bc37-0242c0a8e002	ec2a71ad-5a62-11eb-bc37-0242c0a8e002	ulefebvre@example.com	$argon2id$v=19$m=65536,t=4,p=1$vGIguH/ViRTCTUPxHYf...	Roger	Bruneau	2016-11-02 22:02:04	1931-03-07 21:06:07	19	
+
+
+La liste de tous les produits achetés par le premier utilisateur inscrit.
+
+
+3WA/souleymanecoulibaly_mini_projetsql/products/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_mini_projetsql&table=products_orders
+
+   Affichage des lignes 0 - 20 (total de 21, traitement en 0.0062 seconde(s).)
+
+
+SELECT P.*
+FROM products P
+JOIN products_orders PO ON P.id = PO.product_id
+JOIN orders O ON PO.order_id = O.id
+WHERE O.user_id = (
+    SELECT id
+    FROM users
+    ORDER BY id ASC
+    LIMIT 1
+)
+LIMIT 0, 25
+
+
+id	name	description	price	
+ed73e569-5a62-11eb-bc37-0242c0a8e002	Aquamarine	Souvent quelque bête nocturne, hérisson ou belette...	2557.71	
+edc3f172-5a62-11eb-bc37-0242c0a8e002	Orange	Vierge parmi les désenchantements de la foule et l...	9966.19	
+ee4785df-5a62-11eb-bc37-0242c0a8e002	YellowGreen	Cela ne finissait pas et l'on s'assoupit dans cet ...	7248.87	
+ee543d8d-5a62-11eb-bc37-0242c0a8e002	Snow	La mèche le cinglait sur ses genoux chancelèrent, ...	9410.08	
+ed996dd8-5a62-11eb-bc37-0242c0a8e002	CadetBlue	Mais, quand il venait d'acquérir le château, avec ...	5582.27	
+ef09c3b6-5a62-11eb-bc37-0242c0a8e002	Indigo 	Lion d'or qui venaient tremper là, dans les livres...	8784.54	
+ed467f62-5a62-11eb-bc37-0242c0a8e002	Olive	Tellier, qui, enfin contraint de vendre, avait ach...	2527.99	
+eefcffa7-5a62-11eb-bc37-0242c0a8e002	LightCyan	Emma serrait son châle contre ses épaules son long...	1351.58	
+ef54307b-5a62-11eb-bc37-0242c0a8e002	DeepSkyBlue	Léon en se dépitant, tandis que, sans y remarquer ...	3470.88	
+ee6f0cc4-5a62-11eb-bc37-0242c0a8e002	Sienna	En rentrant, Charles se laissa conduire chez eux. ...	4871.57	
+ed3f55db-5a62-11eb-bc37-0242c0a8e002	RosyBrown	Je vous remercie, dit la dame, respectueusement; e...	3400.2	
+edb34693-5a62-11eb-bc37-0242c0a8e002	LightCyan	Charles, à cause de quelque fiacre attardé qui rou...	890.15	
+edfbddc2-5a62-11eb-bc37-0242c0a8e002	GoldenRod	De temps à autre, comme par une multitude d'hypoth...	3877.77	
+ed362db6-5a62-11eb-bc37-0242c0a8e002	GreenYellow	Elle laissa dans la vallée, une filature de coton....	9320.31	
+ed61a8f9-5a62-11eb-bc37-0242c0a8e002	MediumSeaGreen	Est-ce nourrice qui l'aurait pris? demanda-t-elle....	4136.88	
+ee31304d-5a62-11eb-bc37-0242c0a8e002	LightGray	La figure un peu hâlées par le dessus de la boutiq...	8454.54	
+ef40c7e6-5a62-11eb-bc37-0242c0a8e002	Chartreuse	Charles, à bout d'idées, se mit à faire quantité d...	5361.9	
+ef1b0375-5a62-11eb-bc37-0242c0a8e002	LightPink	Pauvre femme!... pauvre femme!... la voilà retombé...	3110.44	
+ef83e5a1-5a62-11eb-bc37-0242c0a8e002	DarkCyan	Mais bientôt l'émotion disparut; et, se balançant ...	6704.03	
+ee4f3ef1-5a62-11eb-bc37-0242c0a8e002	SandyBrown	Elle lui parla à son bouquet de l'autre! Elle le p...	1345.85	
+ee9f34ca-5a62-11eb-bc37-0242c0a8e002	DarkSalmon	Ils s'éteignirent peu à peu se rétablit dans la co...	7536.96	
