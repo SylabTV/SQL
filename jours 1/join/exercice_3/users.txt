@@ -1,0 +1,11 @@
+3WA/souleymanecoulibaly_sqlintro/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_sqlintro&table=j
+
+   Affichage des lignes 0 -  1 (total de 2, traitement en 0.0043 seconde(s).)
+
+
+SELECT u.email FROM users u JOIN jobs j on u.job = j.id where j.name = 'journaliste'
+
+
+email	
+clark.kent@daily-planet.com	
+kara.denvers@catco.com	

@@ -1,0 +1,10 @@
+3WA/souleymanecoulibaly_sqlintro/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_sqlintro&table=users
+
+   Affichage des lignes 0 -  0 (total de 1, traitement en 0.0042 seconde(s).)
+
+
+SELECT u.email, j.name FROM users u JOIN jobs j ON u.job = j.id WHERE u.id = 7
+
+
+
+peter.parker@daily-bugle.com	lycéen	

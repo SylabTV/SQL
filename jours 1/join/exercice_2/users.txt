@@ -1,0 +1,15 @@
+3WA/souleymanecoulibaly_sqlintro/j/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_sqlintro&table=users
+
+   Affichage des lignes 0 -  5 (total de 6, traitement en 0.0048 seconde(s).)
+
+
+SELECT *, j.name FROM users u JOIN jobs j ON u.job = j.id
+
+
+id	username	email	job	id	name	name	
+1	Superman	clark.kent@daily-planet.com	1	1	Journaliste	Journaliste	
+2	Wonder Woman	diana.prince@museum.uk	2	2	Conservatrice de musée	Conservatrice de musée	
+3	Captain America	steve.rogers@avengers.com	4	4	Vétéran	Vétéran	
+4	Supergirl	kara.denvers@catco.com	1	1	Journaliste	Journaliste	
+5	Iron Man	tony@stark.com	3	3	Riche	Riche	
+7	Spiderman	peter.parker@daily-bugle.com	5	5	lycéen	lycéen	
