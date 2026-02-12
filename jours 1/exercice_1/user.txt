@@ -1,0 +1,10 @@
+SELECT * FROM `users`
+
+
+id   	username	email	job	
+1	Superman	clark.kent@daily-planet.com	1	
+2	Wonder Woman	diana.prince@museum.uk	2	
+3	Captain America	steve.rogers@avengers.com	4	
+4	Supergirl	kara.denvers@catco.com	1	
+5	Iron Man	tony@stark.com	3	
+6	Batman	bruce@wayne.com	3	

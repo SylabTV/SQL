@@ -1,0 +1,12 @@
+3WA/souleymanecoulibaly_sqlintro/users/		https://phpmyadmin.3wa.io/index.php?route=/table/sql&db=souleymanecoulibaly_sqlintro&table=users
+
+   Affichage des lignes 0 -  2 (total de 3, traitement en 0.0032 seconde(s).) [id: 6... - 4...]
+
+
+SELECT * FROM `users` ORDER BY id DESC LIMIT 3
+
+
+id   	username	email	job	
+6	Batman	bruce@wayne.com	3	
+5	Iron Man	tony@stark.com	3	
+4	Supergirl	kara.denvers@catco.com	1	
