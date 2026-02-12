@@ -1,0 +1,1 @@
+INSERT INTO users VALUES (7, 'Spiderman', 'peter.parker@daily-bugle.com', 1)
